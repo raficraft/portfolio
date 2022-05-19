@@ -13,7 +13,7 @@ export default function Projet() {
   const [filesInfo, loading] = useGetImage(["badge/"]);
 
   function handleChange(e) {
-    console.log("change on select", e);
+    setProject(project_data.filter((x) => x.type === e.target.value));
   }
 
   function listProject() {
@@ -105,10 +105,10 @@ export default function Projet() {
             handleChange(e);
           }}
         >
-          <option value="dog">React</option>
-          <option value="cat">Javascript</option>
-          <option value="hamster">integration</option>
-          <option value="parrot">Autodidacte</option>
+          <option value="react">React</option>
+          <option value="native">Javascript</option>
+          <option value="integration">integration</option>
+          <option value="autodidacte">Autodidacte</option>
         </select>
       </aside>
 
