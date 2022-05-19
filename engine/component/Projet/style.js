@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { anim } from "../../styled/animation";
 
 export const Wrapper_project = styled.section`
-  .projet_header {
+  .project_header {
     aside {
       margin: 1rem 0;
       ${S.flex("row", "space-between", "flex-start", "wrap")};
@@ -14,6 +14,8 @@ export const Wrapper_project = styled.section`
 
       select {
         font-size: 1.25rem;
+        border: 1px solid var(--grey-light);
+        border-radius: 5px;
       }
     }
   }
@@ -61,6 +63,7 @@ export const Wrapper_project = styled.section`
         z-index: 10;
         top: 0;
         height: 100%;
+        width: 100%;
         background-color: rgba(255, 255, 255, 0.95);
         padding: 1rem;
         ${S.flex("column", "space-around", "center")};

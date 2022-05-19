@@ -14,7 +14,9 @@ export default function Projet() {
 
   function handleChange(e) {
     setFilter(e.target.value);
-    setProject(project_data.filter((x) => x.type === e.target.value));
+    setProject(
+      project_data.filter((x) => x.type === e.target.value && x.active === true)
+    );
   }
 
   function listProject() {
@@ -77,23 +79,44 @@ export default function Projet() {
 
   return (
     <Wrapper_project className="main_content" id="projet">
-      <header className="projet_header">
+      <header className="project_header">
         <h2>Mes Projets</h2>
         <p>
           Découvrez dans cette section mes différents <b>projets perso</b> ainsi
           que ceux effectué durant ma formation en distanciel via
           OpenClassrooms.
           <br></br>
+          <br></br>
           Vous pouvez suivre ce{" "}
           <a href="https://github.com/raficraft" target="_blank">
             <b>lien</b>
           </a>{" "}
-          pour accéder à la totalité de mes projets public sur mon repo{" "}
+          pour accéder à la totalité de mes projets public sur mon{" "}
           <a href="https://github.com/raficraft" target="_blank">
-            <b>github</b>
+            <b>Github</b>
           </a>
           .
         </p>
+
+        <ul className="bullet_point">
+          <li>5 projets react</li>
+          <li>5 projets en vanilla</li>
+          <li>3 projets d'intégration </li>
+          <li>
+            Projet autodidacte par lequel j'ai tout appris valeur éstimé à 48
+            millions de dollar. ^^{" "}
+          </li>
+        </ul>
+
+        <p class="text">
+          Pour un total de <b>9 side project</b> et{" "}
+          <b>4/11 des projets professionalisant</b> effectué durant ma formation
+          <b>OCR</b>.<br></br>
+          <br></br>
+          Parmit eux un projet client mené de bout en bout de la conception à la
+          mise en production.
+        </p>
+
         <hr></hr>
         <aside>
           <div>
@@ -107,7 +130,7 @@ export default function Projet() {
               }}
             >
               <option value="react">React</option>
-              <option value="native">Javascript</option>
+              <option value="javascript">Javascript</option>
               <option value="integration">integration</option>
               <option value="autodidacte">Autodidacte</option>
             </select>

@@ -80,7 +80,7 @@ export const project_data = [
   {
     projet: "",
     title: "Guides.js",
-    type: "native",
+    type: "javascript",
     tech: ["js", "npm"],
     readme: "/",
     github: "https://github.com/raficraft/guide_JS",
@@ -99,7 +99,7 @@ export const project_data = [
   {
     projet: "",
     title: "Les petits plats",
-    type: "native",
+    type: "javascript",
     tech: ["html", "sass", "js"],
     readme: "/",
     github: "https://github.com/raficraft/OCR_P7_algorithmes",
@@ -117,7 +117,7 @@ export const project_data = [
   {
     projet: "",
     title: "Evaluate_algo",
-    type: "native",
+    type: "javascript",
     tech: [],
     readme: "/",
     github: "https://github.com/raficraft/geobiologie",
@@ -136,7 +136,7 @@ export const project_data = [
   {
     projet: "",
     title: "Horizontal WebSite",
-    type: "native",
+    type: "javascript",
     tech: ["js"],
     readme: "/",
     github: "https://github.com/raficraft/horizontal-webSite-engine",
@@ -155,7 +155,7 @@ export const project_data = [
   {
     projet: "",
     title: "FishEye",
-    type: "native",
+    type: "javascript",
     tech: ["html", "css", "js"],
     readme: "/",
     github: "https://github.com/raficraft/OCR_fisheye_p6",
@@ -184,7 +184,7 @@ export const project_data = [
     video: "",
     repsonsive: true,
     cardType: "",
-    active: false,
+    active: true,
     codacy: false,
     features: [""],
     img_responsives: false,
@@ -248,7 +248,7 @@ export const project_data = [
   {
     projet: "",
     title: "Sudoku",
-    type: "native",
+    type: "javascript",
     tech: ["js"],
     readme: "/",
     github: "https://github.com/raficraft",
@@ -287,7 +287,7 @@ export const project_data = [
   {
     projet: "",
     title: "Game On",
-    type: "native",
+    type: "javascript",
     tech: [],
     readme: "/",
     github: "",
@@ -323,7 +323,7 @@ export const project_data = [
   {
     projet: "",
     title: "Game On",
-    type: "native",
+    type: "javascript",
     tech: [],
     readme: "/",
     github: "",

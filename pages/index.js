@@ -5,6 +5,8 @@ import Projet from "../engine/component/Projet/Projet";
 import Skills from "../engine/component/Skills/Skills";
 import { GlobalStyle } from "../engine/styled/global";
 
+import { Wrapper_skills } from "../engine/component/Skills/skills_css";
+
 export default function Home() {
   return (
     <section>

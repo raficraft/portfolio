@@ -15,6 +15,7 @@ font-family: 'Trykker', serif; */
   --tertiary-bg :#84B59F;
   --quaternary-bg :#F4B860;
   --quinary-bg :#C83E4D;
+  --grey-light : #d8e1e8; 
   --wrapper_inside : 1330px;
 
   
@@ -49,6 +50,7 @@ a{color : black;}
 
 li {
   list-style: none;
+  font-family:  'Khand', sans-serif ;
 }
 
 h1,
@@ -121,17 +123,49 @@ button {
   @media screen and (max-width: 1439px) {
     width: calc(100% - 1rem);
   }
-}
+
 
 hr{
   height: 2px ;
-  background-color: #d8e1e8 ;
-  margin : 2rem 0;
+  background-color: var(--grey-light) ;
+  margin : 4rem 0;
 }
+
+
 
 .main_content{
   padding : 1rem;  
   margin : 0 0 12rem 0;
+}
+
+
+
+.bullet_point {
+      margin: 2rem;
+      li{
+        margin : 0 0 1rem;
+        list-style : square;
+      }
+    }
+.text_2r{
+  font-size: 2rem ;
+}
+
+.text_uppercase{
+  text-transform: uppercase ;
+}
+
+.pa1{
+  padding: 1rem ;
+}
+
+.pa1_5{
+  padding: 1.5rem ;
+}
+
+.pa2{
+  padding: 2rem ;
+}
 
 
 
