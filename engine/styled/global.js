@@ -48,7 +48,6 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 24px;
   font-weight: bold;
   color: var(--primary-bg);
   font-weight: 500 ;
@@ -61,21 +60,25 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  line-height: 1.6;
   font-family: 'Bigshot One', cursive;
+  margin-bottom: 1rem;
+
 }
 
 h3 {
   font-size: 1.25em;
+  font-family: 'Bigshot One', cursive;
 }
 
 h4 {
   font-size: 1.125em;
+  font-family: 'Bigshot One', cursive;
 }
 
 h5,
 h6 {
   font-size: 1em;
+  font-family: 'Bigshot One', cursive;
 }
 
 // ul,

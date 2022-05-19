@@ -13,24 +13,25 @@ export const Wrapper_project = styled.section`
       overflow: hidden;
       position: relative;
       background-color: white;
+      border: 1px solid rgba(219, 229, 230, 1);
+      border-radius: 3px;
+      ${S.shadow("blue")}
+      cursor : pointer;
+
+      &:hover {
+        border: 1px solid var(--tertiary-bg);
+      }
+
       @media (max-width: 1280px) {
         ${S.responsiveContainer("45%")}
       }
       @media (max-width: 768px) {
         ${S.responsiveContainer("100%")}
       }
-      border: 1px solid rgba(219, 229, 230, 1);
-      border-radius: 3px;
 
       header {
         ${S.flex("row", "space-between", "center", "wrap")};
         margin: 0 0 1rem 0;
-      }
-
-      &_title {
-        font-size: 1.5rem;
-        width: 100%;
-        font-weight: bold;
       }
 
       &_img {
@@ -50,6 +51,7 @@ export const Wrapper_project = styled.section`
         ${S.flex("column", "space-around", "center")};
         transform: translateY(105%);
         animation: 0.5s ${anim.fadeOut} ease-out both;
+        cursor: pointer;
 
         .codacy_icon {
           text-align: center;
@@ -74,12 +76,16 @@ export const Wrapper_project = styled.section`
           .link_icon {
             ${S.flex("row", "center", "center")};
             margin: 0 0 1rem 0;
-            a,
+            a {
+              font-size: 1rem;
+              text-decoration: none;
+            }
+
             svg {
-              font-size: 1.25rem;
+              font-size: 1.5rem;
             }
             svg {
-              margin: 0.35rem 0.5rem 0;
+              margin: 0rem 0.5rem 0;
             }
             span {
               margin: auto auto;

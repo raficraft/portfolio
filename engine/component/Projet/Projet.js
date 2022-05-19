@@ -23,7 +23,7 @@ export default function Projet() {
             ></div>
             <article>
               <header>
-                <p className="sticker_title">{projet.title}</p>
+                <h2 className="sticker_title">{projet.title}</h2>
               </header>
 
               <footer>

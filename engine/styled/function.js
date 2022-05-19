@@ -42,6 +42,6 @@ export const S = {
     return val + "px";
   },
   shadow: (color) => {
-    return ``;
+    return `0 2px 4px ${color}`;
   },
 };
