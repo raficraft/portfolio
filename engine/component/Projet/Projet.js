@@ -8,11 +8,12 @@ import Image from "next/image";
 export default function Projet() {
   const [filter, setFilter] = useState("react");
   const [project, setProject] = useState(
-    project_data.filter((x) => x.type === filter)
+    project_data.filter((x) => x.type === filter && x.active === true)
   );
   const [filesInfo, loading] = useGetImage(["badge/"]);
 
   function handleChange(e) {
+    setFilter(e.target.value);
     setProject(project_data.filter((x) => x.type === e.target.value));
   }
 
@@ -76,7 +77,7 @@ export default function Projet() {
 
   return (
     <Wrapper_project className="main_content" id="projet">
-      <header>
+      <header className="projet_header">
         <h2>Mes Projets</h2>
         <p>
           Découvrez dans cette section mes différents <b>projets perso</b> ainsi
@@ -93,24 +94,30 @@ export default function Projet() {
           </a>
           .
         </p>
+        <hr></hr>
+        <aside>
+          <div>
+            <label for="pet-select">Filtrer les projets:</label>
+
+            <select
+              name="pets"
+              id="pet-select"
+              onChange={(e) => {
+                handleChange(e);
+              }}
+            >
+              <option value="react">React</option>
+              <option value="native">Javascript</option>
+              <option value="integration">integration</option>
+              <option value="autodidacte">Autodidacte</option>
+            </select>
+          </div>
+
+          <p>{`${project.length} ${
+            project.length > 1 ? "projets" : "projet"
+          } ${filter}`}</p>
+        </aside>
       </header>
-
-      <aside>
-        <label for="pet-select">Filtrer les projets:</label>
-
-        <select
-          name="pets"
-          id="pet-select"
-          onChange={(e) => {
-            handleChange(e);
-          }}
-        >
-          <option value="react">React</option>
-          <option value="native">Javascript</option>
-          <option value="integration">integration</option>
-          <option value="autodidacte">Autodidacte</option>
-        </select>
-      </aside>
 
       <div className="listProject">{listProject()}</div>
     </Wrapper_project>

@@ -3,6 +3,21 @@ import styled from "styled-components";
 import { anim } from "../../styled/animation";
 
 export const Wrapper_project = styled.section`
+  .projet_header {
+    aside {
+      margin: 1rem 0;
+      ${S.flex("row", "space-between", "flex-start", "wrap")};
+
+      label {
+        margin: 0 1rem 0 0;
+      }
+
+      select {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
   .listProject {
     ${S.flex("row", "space-around", "flex-start", "wrap")};
     margin: 4rem 0;

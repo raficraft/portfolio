@@ -20,6 +20,15 @@ font-family: 'Trykker', serif; */
   
 }
 
+b{
+  color :#f0830f;
+  
+}
+
+a{
+    text-decoration-color: #f0830f;
+  }
+
 html {
   scroll-behavior: smooth;
 }
@@ -114,9 +123,16 @@ button {
   }
 }
 
+hr{
+  height: 2px ;
+  background-color: #d8e1e8 ;
+  margin : 2rem 0;
+}
+
 .main_content{
   padding : 1rem;  
   margin : 0 0 12rem 0;
+
 
 
 `;
