@@ -48,12 +48,10 @@ export default function Skills() {
               <li className="listSvg_item">{<RestfulIcon color={"dark"} />}</li>
               <li className="listSvg_item text_2r">{`{ Orienté objet }`}</li>
             </ul>
-            <a href="#" target="_blank">
-              Mon profil complet evalué par assertFirst
-            </a>
           </div>
         </article>
       </Wrapper_hardSkills>
+      <hr></hr>
       <Wrapper_softSkills>
         <div>
           <header>
@@ -76,6 +74,10 @@ export default function Skills() {
                 <li>Esprit d'entreprendre</li>
                 <li>Motivation</li>
               </ul>
+
+              <a href="#" target="_blank">
+                Mon profil complet evalué par assertFirst
+              </a>
             </div>
             <div>
               <iframe
@@ -110,9 +112,9 @@ export default function Skills() {
             </header>
 
             <p>
-              Raphael Parodi apparaît comme quelqu'un de déterminé et
-              volontaire. Proactif, il est toujours à la recherche de
-              propositions et d'actions pour faire avancer son travail. Il
+              Raphael Parodi apparaît comme quelqu'un de <b>déterminé</b> et
+              <b>volontaire</b>. <b>Proactif</b>, il est toujours à la recherche
+              de propositions et d'actions pour faire avancer son travail. Il
               aborde son activité de manière souple et gère aisément le
               changement et les imprévus. La façon engageante avec laquelle il
               présente ses idées laisse peu de place au doute pour son
