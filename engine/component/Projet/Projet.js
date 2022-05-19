@@ -20,17 +20,7 @@ export default function Projet() {
               style={{
                 backgroundImage: `url('/assets/img/${projet.img}socialCard.jpg')`,
               }}
-            >
-              <div className="sticker_desc">
-                <p dangerouslySetInnerHTML={{ __html: projet.desc }}></p>
-                {projet.codacy && (
-                  <p
-                    className="codacy_icon"
-                    dangerouslySetInnerHTML={{ __html: projet.codacy }}
-                  ></p>
-                )}
-              </div>
-            </div>
+            ></div>
             <article>
               <header>
                 <p className="sticker_title">{projet.title}</p>
@@ -57,26 +47,21 @@ export default function Projet() {
                 </div>
 
                 <span className="list_badge">
-                  {filesInfo.length ? (
-                    projet.tech.map((el, key) => {
-                      const img = filesInfo.find((x) => x.src.includes(el));
-                      return (
-                        <p className="S.badge" key={key}>
-                          <Image
-                            src={img.src}
-                            width={img.width}
-                            height={img.height}
-                            alt=""
-                          ></Image>
-                        </p>
-                      );
-                    })
-                  ) : (
-                    <p>Loading...</p>
-                  )}
+                  {projet.tech.map((el, key) => {
+                    return <p>{el}</p>;
+                  })}
                 </span>
               </footer>
             </article>
+            <div className="sticker_desc">
+              <p dangerouslySetInnerHTML={{ __html: projet.desc }}></p>
+              {projet.codacy && (
+                <p
+                  className="codacy_icon"
+                  dangerouslySetInnerHTML={{ __html: projet.codacy }}
+                ></p>
+              )}
+            </div>
           </div>
         );
       });

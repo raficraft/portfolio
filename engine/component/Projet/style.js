@@ -10,8 +10,16 @@ export const Wrapper_project = styled.section`
 
     .sticker {
       ${S.responsiveContainer("30%")}
-
-      border: 2px solid #adadadff;
+      overflow: hidden;
+      position: relative;
+      background-color: white;
+      @media (max-width: 1280px) {
+        ${S.responsiveContainer("45%")}
+      }
+      @media (max-width: 768px) {
+        ${S.responsiveContainer("100%")}
+      }
+      border: 1px solid rgba(219, 229, 230, 1);
       border-radius: 3px;
 
       header {
@@ -30,19 +38,17 @@ export const Wrapper_project = styled.section`
         background-size: cover;
         display: flex;
         overflow: hidden;
-
-        &:hover .sticker_desc {
-          animation: 0.5s ${anim.fadeIn} ease-out both;
-        }
       }
 
       &_desc {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        height: 100%;
         background-color: rgba(255, 255, 255, 0.95);
-        flex: 1;
-        align-self: stretch;
         padding: 1rem;
-        transform: translateY(105%);
         ${S.flex("column", "space-around", "center")};
+        transform: translateY(105%);
         animation: 0.5s ${anim.fadeOut} ease-out both;
 
         .codacy_icon {
@@ -50,12 +56,12 @@ export const Wrapper_project = styled.section`
         }
       }
 
-      &_title {
-        margin: 0 0 1rem 0;
+      &:hover .sticker_desc {
+        animation: 0.5s ${anim.fadeIn} ease-out both;
       }
 
       article {
-        border-top: 2px solid grey;
+        border-top: 1px solid grey;
         padding: 1rem;
       }
 

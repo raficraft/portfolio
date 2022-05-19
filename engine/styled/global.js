@@ -26,6 +26,7 @@ html {
 
 body{
   font-family: 'Khand', sans-serif, 'Bigshot One', cursive , 'Trykker', serif;
+  background-color: #f4f4f4ff;
 }
 *{
    margin: 0;
