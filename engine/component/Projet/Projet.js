@@ -6,8 +6,15 @@ import { Computer, Github } from "../../../public/assets/svg/icons";
 import Image from "next/image";
 
 export default function Projet() {
-  const [project, setProject] = useState(project_data);
+  const [filter, setFilter] = useState("react");
+  const [project, setProject] = useState(
+    project_data.filter((x) => x.type === filter)
+  );
   const [filesInfo, loading] = useGetImage(["badge/"]);
+
+  function handleChange(e) {
+    console.log("change on select", e);
+  }
 
   function listProject() {
     return project
@@ -87,6 +94,23 @@ export default function Projet() {
           .
         </p>
       </header>
+
+      <aside>
+        <label for="pet-select">Filtrer les projets:</label>
+
+        <select
+          name="pets"
+          id="pet-select"
+          onChange={(e) => {
+            handleChange(e);
+          }}
+        >
+          <option value="dog">React</option>
+          <option value="cat">Javascript</option>
+          <option value="hamster">integration</option>
+          <option value="parrot">Autodidacte</option>
+        </select>
+      </aside>
 
       <div className="listProject">{listProject()}</div>
     </Wrapper_project>
