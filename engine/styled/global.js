@@ -18,6 +18,14 @@ font-family: 'Trykker', serif; */
   --grey-light : #d8e1e8; 
   --wrapper_inside : 1330px;
 
+  --primary-font: font-family: 'Bigshot One', cursive;;
+  --secondary-font :font-family: 'Khand', sans-serif;
+  --tertiary-font :font-family: 'Trykker', serif; 
+
+  @media (max-width: 601px) {
+    --wrapper_inside : calc(100vw - 2rem);
+  }
+
   
 }
 
@@ -32,11 +40,13 @@ a{
 
 html {
   scroll-behavior: smooth;
+  min-width : 100%;
 }
 
 body{
   font-family: 'Khand', sans-serif, 'Bigshot One', cursive , 'Trykker', serif;
   background-color: #f4f4f4ff;
+  min-width : 100%;
 }
 *{
    margin: 0;
@@ -92,10 +102,10 @@ h6 {
   font-family: 'Bigshot One', cursive;
 }
 
-// ul,
-// ol {
-//   margin-left: 2.5rem;
-// }
+ /* ul,
+ ol {
+   margin-left: 2.5rem;
+ } */
 ul {
   list-style-type: square;
 }
@@ -167,6 +177,34 @@ hr{
   padding: 2rem ;
 }
 
+
+
+.two_col{
+  ${S.flex("row", "space-around", "center")}
+  gap : 2rem;
+  flex : 1;
+  margin : 2rem 0;
+}
+
+.box_item{
+  background-color: #FFF ;
+  padding : 1rem;
+  border : 1px solid var(--grey-light);
+  border-radius : 5px;
+}
+
+.text{
+  line-height: 2rem ;
+  word-break: break-word;
+}
+
+.title_big{
+  font-size : 2rem;
+}
+
+.main{
+  width : 100%;
+}
 
 
 `;

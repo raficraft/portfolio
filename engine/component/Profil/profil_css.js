@@ -8,6 +8,15 @@ export const Container = styled.section`
     ${S.flex("row", "space-between", "flex-start")};
   }
 
+  header {
+    flex: 1;
+    ${S.flex("column", "space-between", "flex-start")};
+    padding: 2rem 0 0 0;
+    @media (min-width: 601px) {
+      padding: 8rem 0 0 0;
+    }
+  }
+
   .imgProfil {
     ${S.flexCenter("row")};
 
@@ -21,7 +30,7 @@ export const Container = styled.section`
       height: calc(100vw - 12rem);
     }
     @media (min-width: 601px) {
-      max-width: 430px;
+      ${S.responsiveContainer("430px")}
     }
   }
 

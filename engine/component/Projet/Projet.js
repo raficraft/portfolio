@@ -80,12 +80,11 @@ export default function Projet() {
   return (
     <Wrapper_project className="main_content" id="projet">
       <header className="project_header">
-        <h2>Mes Projets</h2>
-        <p>
+        <h2 className="title_big">Mes Projets</h2>
+        <p class="text">
           Découvrez dans cette section mes différents <b>projets perso</b> ainsi
           que ceux effectué durant ma formation en distanciel via
           OpenClassrooms.
-          <br></br>
           <br></br>
           Vous pouvez suivre ce{" "}
           <a href="https://github.com/raficraft" target="_blank">
@@ -110,9 +109,8 @@ export default function Projet() {
 
         <p class="text">
           Pour un total de <b>9 side project</b> et{" "}
-          <b>4/11 des projets professionalisant</b> effectué durant ma formation
+          <b>4/11 des projets professionalisant</b> effectué durant ma formation{" "}
           <b>OCR</b>.<br></br>
-          <br></br>
           Parmit eux un projet client mené de bout en bout de la conception à la
           mise en production.
         </p>

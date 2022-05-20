@@ -7,7 +7,6 @@ export default function Layout({ children }) {
     <main>
       <Header></Header>
       {children}
-      <GoToTop></GoToTop>
     </main>
   );
 }

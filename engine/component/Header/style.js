@@ -3,13 +3,13 @@ import styled from "styled-components";
 
 export const Wrapper = styled.header`
   padding: 0 ${S.spacing(4)};
-  ${S.flexCenter("row")};
-  color: #fff;
   margin: 0 0 ${S.spacing(2)} 0;
+  color: #fff;
 
   nav {
-    border-bottom: 3px solid #d8e1e8;
+    ${S.flex("row", "center", "center")};
     padding: ${S.spacing(4)};
+    border-bottom: 3px solid #d8e1e8;
     & ul {
       ${S.flexCenter("row")};
 

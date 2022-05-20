@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import imgProfil from "../../../public/assets/img/profil/profil_02.jpg";
 
-import { Container } from "./style";
+import { Container } from "./profil_css";
 import { Download } from "../../../public/assets/svg/icons";
 
 export default function Profil() {
@@ -10,14 +10,17 @@ export default function Profil() {
     <Container className="main_content" id="profil">
       <div className="punchline">
         <header>
-          <h1 className="bigTitle">
-            <span>Développeur </span>
-            <span>Front-end</span>
-          </h1>
-          <h2>React.js | Next.js | Javascript | Intégration WEB</h2>
-          <blockquote>
-            " Inventer les solutions technique pour accompagner les entreprises
-            dans leurs transformation digital. "
+          <div>
+            <h1 className="bigTitle">
+              <span>Développeur </span>
+              <span>Front-end</span>
+            </h1>
+            <h2>React.js | Next.js | Javascript | Intégration WEB</h2>
+          </div>
+          <blockquote class="text">
+            " Evaluer et analyser les besoins de transformation digital des
+            entreprises pour concevoir des solutions maintenable, scalable et
+            élégante. "
           </blockquote>
         </header>
         <div className="callToAction">
