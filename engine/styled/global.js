@@ -179,12 +179,7 @@ hr{
 
 
 
-.two_col{
-  ${S.flex("row", "space-around", "center")}
-  gap : 2rem;
-  flex : 1;
-  margin : 2rem 0;
-}
+
 
 .box_item{
   background-color: #FFF ;
@@ -205,6 +200,4 @@ hr{
 .main{
   width : 100%;
 }
-
-
 `;

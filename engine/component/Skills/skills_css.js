@@ -52,10 +52,41 @@ export const Wrapper_hardSkills = styled.section`
       }
     }
   }
-
-  .assessFirst_img {
-    ${S.responsiveContainer("50px")}
-  }
 `;
 
-export const Wrapper_softSkills = styled.section``;
+export const Wrapper_softSkills = styled.section`
+  .two_col {
+    ${S.flex("row", "space-around", "center", "nowrap")}
+    gap : 2rem;
+    margin: 2rem 0;
+
+    @media (max-width: 1000px) {
+      ${S.flex("column", "space-around", "center", "nowrap")}
+    }
+
+    h2 {
+      text-transform: uppercase;
+      color: grey;
+    }
+
+    .box_item {
+      ${S.flex("column", "center", "center", "nowrap")}
+      ${S.responsiveContainer("calc(100vw / 2)")}
+
+      .text {
+        margin: 1rem;
+      }
+
+      @media (max-width: 501px) {
+        ${S.responsiveContainer("100%")}
+      }
+    }
+  }
+  .assessFirst_img {
+    ${S.responsiveContainer("calc(100vw)")}
+  }
+  .box_item--iframe {
+    min-height: 100%;
+    ${S.iframeResponsive("400px", "400px")}
+  }
+`;

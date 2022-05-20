@@ -44,4 +44,18 @@ export const S = {
   shadow: (color) => {
     return `0 2px 4px ${color}`;
   },
+
+  iframeResponsive: (height, width) => css`
+    overflow: hidden;
+    padding-top: percentage(height / width);
+    position: relative;
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  `,
 };

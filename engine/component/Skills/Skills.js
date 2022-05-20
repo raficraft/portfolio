@@ -84,7 +84,7 @@ export default function Skills() {
         </article>
       </Wrapper_hardSkills>
       <hr></hr>
-      {/* <Wrapper_softSkills>
+      <Wrapper_softSkills>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <header>
             <h2>Soft skills</h2>
@@ -119,25 +119,12 @@ export default function Skills() {
                 ></Image>
               </div>
             </div>
-
-            <div className="box_item">
-              <iframe
-                src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fassessfirst%2Fvideos%2F323300835110566%2F&show_text=false&width=476&t=0"
-                width="476"
-                height="476"
-                scrolling="no"
-                frameborder="0"
-                allowfullscreen="true"
-                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                allowFullScreen="true"
-              ></iframe>
-            </div>
           </article>
         </div>
 
         <hr></hr>
 
-        <article>
+        {/* <article>
           <h2 className="text_uppecase">Mes points forts</h2>
 
           <div className="icon_AND_list">
@@ -157,8 +144,23 @@ export default function Skills() {
               </li>
             </ul>
           </div>
-        </article>
-      </Wrapper_softSkills> */}
+        </article> */}
+      </Wrapper_softSkills>
     </section>
   );
+}
+
+{
+  /* <div className="box_item">
+<div className="box_item--iframe">
+  <iframe
+    src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fassessfirst%2Fvideos%2F323300835110566%2F&show_text=false&t=0"
+    scrolling="no"
+    frameborder="0"
+    allowfullscreen="true"
+    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+    allowFullScreen="true"
+  ></iframe>
+</div>
+</div> */
 }
