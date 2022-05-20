@@ -120,6 +120,12 @@ export default function Skills() {
               </div>
             </div>
           </article>
+
+          <div className="box_item">
+            <video controls width="250" height="250">
+              <source src="/assets/video/assessfirst.mp4" type="video/mp4" />
+            </video>
+          </div>
         </div>
 
         <hr></hr>
