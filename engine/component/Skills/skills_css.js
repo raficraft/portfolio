@@ -92,6 +92,7 @@ export const Wrapper_softSkills = styled.section`
 
     &--item {
       ${S.flex("column", "center", "center")};
+      margin: 2rem auto;
     }
 
     &--icon {
