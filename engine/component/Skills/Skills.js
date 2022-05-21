@@ -148,10 +148,10 @@ export default function Skills() {
               <div className="svg_AND_list--item box_item">
                 <span className="svg_AND_list--icon">
                   <Handshake></Handshake>
+                  <h3>Dans ma relations avec les autres</h3>
                 </span>
 
                 <ul className="svg_AND_list--text">
-                  <h3>Dans ma relations avec les autres</h3>
                   <li>
                     l décide en toute autonomie, avance seul dans son travail.
                   </li>
@@ -167,10 +167,10 @@ export default function Skills() {
               <div className="svg_AND_list--item box_item">
                 <span className="svg_AND_list--icon">
                   <IconIdea></IconIdea>
+                  <h3>Dans ma manière de travailler</h3>
                 </span>
 
                 <ul className="svg_AND_list--text">
-                  <h3>Dans ma manière de travailler</h3>
                   <li>
                     Il est réfléchi, aborde les problèmes sous le versant
                     conceptuel.
@@ -187,10 +187,10 @@ export default function Skills() {
               <div className="svg_AND_list--item box_item">
                 <span className="svg_AND_list--icon">
                   <Heart></Heart>
+                  <h3>Dans sa gestion des émotions</h3>
                 </span>
 
                 <ul className="svg_AND_list--text">
-                  <h3>Dans sa gestion des émotions</h3>
                   <li>
                     Il dégage de l'enthousiasme, voit les choses positivement
                   </li>
@@ -208,21 +208,19 @@ export default function Skills() {
           </article>
 
           <article className="talent_tag">
-            <span>#lead</span>
-            <span>#avenant</span>
-            <span>#critique</span>
-            <span>#autonome</span>
-            <span>#conceptuel</span>
-            <span>#créatif</span>
-            <span>#improvise</span>
-            <span>#tenace</span>
-            <span>#formaliste</span>
-            <span>#enthousiaste</span>
-            <span>#expressif</span>
+            <p className="tag">#lead</p>
+            <p className="tag">#avenant</p>
+            <p className="tag">#critique</p>
+            <p className="tag">#autonome</p>
+            <p className="tag">#conceptuel</p>
+            <p className="tag">#créatif</p>
+            <p className="tag">#improvise</p>
+            <p className="tag">#tenace</p>
+            <p className="tag">#formaliste</p>
+            <p className="tag">#enthousiaste</p>
+            <p className="tag">#expressif</p>
           </article>
         </div>
-
-        <hr></hr>
 
         {/* <article>
           <h2 className="text_uppecase">Mes points forts</h2>
