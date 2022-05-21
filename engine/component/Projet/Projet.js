@@ -4,6 +4,7 @@ import { Wrapper_project } from "./projet_css";
 import useGetImage from "../../hooks/files/useGetImage";
 import { Computer, Github } from "../../../public/assets/svg/icons";
 import { useScrollObserver } from "../../hooks/useScrollObserver";
+import { useRouter } from "next/router";
 
 export default function Projet() {
   const [filter, setFilter] = useState("react");
@@ -11,6 +12,14 @@ export default function Projet() {
     project_data.filter((x) => x.type === filter && x.active === true)
   );
   const [filesInfo, loading] = useGetImage(["badge/"]);
+
+  const router = useRouter();
+
+  const [itemRef, itemIsVisible] = useScrollObserver({
+    root: null,
+    rootMargin: "0px",
+    thresold: 0.4,
+  });
 
   const [containerRef, isVisible] = useScrollObserver({
     root: null,
@@ -90,7 +99,7 @@ export default function Projet() {
   }
 
   return (
-    <Wrapper_project className="main_content" id="projet">
+    <Wrapper_project className="main_content" id="projet" ref={containerRef}>
       <header className="project_header">
         <h2 className="title_big">Mes Projets</h2>
         <p className="text">
@@ -154,10 +163,10 @@ export default function Projet() {
 
       <div
         className="listProject"
-        ref={containerRef}
-        data-current={isVisible ? "true" : "false"}
+        ref={itemRef}
+        data-current={itemIsVisible ? "true" : "false"}
       >
-        {listProject(isVisible)}
+        {listProject(itemIsVisible)}
       </div>
     </Wrapper_project>
   );

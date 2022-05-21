@@ -1,12 +1,13 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import Head from "next/head";
 import Profil from "../engine/component/Profil/Profil";
 import Projet from "../engine/component/Projet/Projet";
 import Skills from "../engine/component/Skills/Skills";
 import { GlobalStyle } from "../engine/styled/global";
-import { useScrollObserver } from "../engine/hooks/useScrollObserver";
 
 export default function Home() {
+  console.log("render");
+
   return (
     <section>
       <Head>

@@ -55,6 +55,10 @@ body{
   box-sizing: border-box ;
 }
 
+#__next{
+  position : relative;
+}
+
 a{color : black;}
 
 

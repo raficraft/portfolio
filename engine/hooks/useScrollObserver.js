@@ -1,12 +1,10 @@
 import React, { useEffect, useState, useRef } from "react";
 
 export const useScrollObserver = (options) => {
-  console.log("in Hooks observer ", options);
   const containerRef = useRef();
   const [isVisible, setIsVisible] = useState(false);
 
   const callbackFunction = (entries) => {
-    console.log("?????", entries);
     const [entry] = entries;
     setIsVisible(entry.isIntersecting);
   };

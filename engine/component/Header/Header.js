@@ -5,14 +5,6 @@ import { useScroll } from "../../hooks/useScroll";
 import { Wrapper } from "./style";
 
 export default function Header() {
-  const router = useRouter();
-
-  //const { scrollY, scrollX, scrollDirection } = useScroll();
-
-  useEffect(() => {
-    console.log({ router });
-  }, [router.asPath]);
-
   function makeLink() {
     return nav_data.map((nav, key) => {
       return (
