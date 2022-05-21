@@ -24,6 +24,8 @@ export const Wrapper_project = styled.section`
     ${S.flex("row", "space-around", "flex-start", "wrap")};
     margin: 4rem 0;
     gap: 3rem 2rem;
+    perspective: 1000px;
+    transform-style: preserve-3d;
 
     .sticker {
       ${S.responsiveContainer("30%")}
@@ -33,7 +35,7 @@ export const Wrapper_project = styled.section`
       border: 1px solid rgba(219, 229, 230, 1);
       border-radius: 3px;
       ${S.shadow("blue")}
-      cursor : pointer;
+      transform: translateZ(-1000px);
 
       &:hover {
         border: 1px solid var(--tertiary-bg);
@@ -70,6 +72,7 @@ export const Wrapper_project = styled.section`
         transform: translateY(105%);
         animation: 0.5s ${anim.fadeOut} ease-out both;
         cursor: pointer;
+        transition: 0s;
 
         .codacy_icon {
           text-align: center;
@@ -115,6 +118,13 @@ export const Wrapper_project = styled.section`
           ${S.flex("row", "flex-start", "flex-start", "wrap")};
           gap: 0 1rem;
         }
+      }
+    }
+
+    &[data-current="true"] {
+      .sticker {
+        animation: ${anim.fadeIn} 0.5s linear;
+        animation-fill-mode: both;
       }
     }
   }

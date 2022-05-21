@@ -1,11 +1,10 @@
+import React, { useEffect, useRef } from "react";
 import Head from "next/head";
-import Header from "../engine/component/Header/Header";
 import Profil from "../engine/component/Profil/Profil";
 import Projet from "../engine/component/Projet/Projet";
 import Skills from "../engine/component/Skills/Skills";
 import { GlobalStyle } from "../engine/styled/global";
-
-import { Wrapper_skills } from "../engine/component/Skills/skills_css";
+import { useScrollObserver } from "../engine/hooks/useScrollObserver";
 
 export default function Home() {
   return (

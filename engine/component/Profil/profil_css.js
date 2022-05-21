@@ -50,6 +50,7 @@ export const Container = styled.section`
       text-align: left;
       font-size: 5.5rem;
       ${S.flex("column", "flex-start", "center")};
+      margin-bottom: 3rem;
     }
   }
 

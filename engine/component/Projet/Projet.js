@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef, createRef } from "react";
 import { project_data } from "../../data/projet/projet_data";
-import { Wrapper_project } from "./style";
+import { Wrapper_project } from "./projet_css";
 import useGetImage from "../../hooks/files/useGetImage";
 import { Computer, Github } from "../../../public/assets/svg/icons";
-import Image from "next/image";
+import { useScrollObserver } from "../../hooks/useScrollObserver";
 
 export default function Projet() {
   const [filter, setFilter] = useState("react");
@@ -12,6 +12,12 @@ export default function Projet() {
   );
   const [filesInfo, loading] = useGetImage(["badge/"]);
 
+  const [containerRef, isVisible] = useScrollObserver({
+    root: null,
+    rootMargin: "0px",
+    thresold: 0.4,
+  });
+
   function handleChange(e) {
     setFilter(e.target.value);
     setProject(
@@ -19,12 +25,18 @@ export default function Projet() {
     );
   }
 
-  function listProject() {
+  function listProject(isVisible) {
     return project
       .filter((x) => x.active === true)
       .map((projet, key) => {
         return (
-          <div className="sticker" key={key}>
+          <div
+            className="sticker"
+            key={key}
+            style={{
+              animationDelay: ` ${key * 0.15}s`,
+            }}
+          >
             <div
               className="sticker_img"
               style={{
@@ -58,7 +70,7 @@ export default function Projet() {
 
                 <span className="list_badge">
                   {projet.tech.map((el, key) => {
-                    return <p>{el}</p>;
+                    return <p key={key}>{el}</p>;
                   })}
                 </span>
               </footer>
@@ -118,7 +130,7 @@ export default function Projet() {
         <hr></hr>
         <aside>
           <div>
-            <label for="pet-select">Filtrer les projets:</label>
+            <label htmlFor="pet-select">Filtrer les projets:</label>
 
             <select
               name="pets"
@@ -140,7 +152,13 @@ export default function Projet() {
         </aside>
       </header>
 
-      <div className="listProject">{listProject()}</div>
+      <div
+        className="listProject"
+        ref={containerRef}
+        data-current={isVisible ? "true" : "false"}
+      >
+        {listProject(isVisible)}
+      </div>
     </Wrapper_project>
   );
 }
