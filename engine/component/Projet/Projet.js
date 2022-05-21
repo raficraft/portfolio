@@ -81,7 +81,7 @@ export default function Projet() {
     <Wrapper_project className="main_content" id="projet">
       <header className="project_header">
         <h2 className="title_big">Mes Projets</h2>
-        <p class="text">
+        <p className="text">
           Découvrez dans cette section mes différents <b>projets perso</b> ainsi
           que ceux effectué durant ma formation en distanciel via
           OpenClassrooms.
@@ -107,7 +107,7 @@ export default function Projet() {
           </li>
         </ul>
 
-        <p class="text">
+        <p className="text">
           Pour un total de <b>9 side project</b> et{" "}
           <b>4/11 des projets professionalisant</b> effectué durant ma formation{" "}
           <b>OCR</b>.<br></br>

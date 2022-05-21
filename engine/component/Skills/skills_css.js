@@ -77,7 +77,7 @@ export const Wrapper_softSkills = styled.section`
         margin: 1rem;
       }
 
-      @media (max-width: 501px) {
+      @media (max-width: 1001px) {
         ${S.responsiveContainer("100%")}
       }
     }
@@ -85,8 +85,29 @@ export const Wrapper_softSkills = styled.section`
   .assessFirst_img {
     ${S.responsiveContainer("calc(100vw)")}
   }
-  .box_item--iframe {
-    min-height: 100%;
-    ${S.iframeResponsive("400px", "400px")}
+
+  .svg_AND_list {
+    ${S.flex("row", "space-around", "center", "wrap")};
+
+    &--item {
+      ${S.flex("column", "center", "center")};
+    }
+
+    &--icon {
+      ${S.flex("column", "center", "center")};
+      margin: 1rem 0;
+
+      svg {
+        padding: 2rem;
+        background-color: var(--tertiary-bg);
+        margin: auto auto;
+        border-radius: 50%;
+        ${S.size("8rem", "8rem")}
+        color : white;
+      }
+    }
+
+    &--list {
+    }
   }
 `;
