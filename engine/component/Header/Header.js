@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";
 import { nav_data } from "../../data/nav/nav_data";
-import { useScroll } from "../../hooks/useScroll";
 import { Wrapper } from "./style";
 
 export default function Header() {

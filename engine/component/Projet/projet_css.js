@@ -123,7 +123,7 @@ export const Wrapper_project = styled.section`
 
     &[data-current="true"] {
       .sticker {
-        animation: ${anim.fadeIn} 0.5s linear;
+        animation: ${anim.goToZ} 0.5s linear;
         animation-fill-mode: both;
       }
     }

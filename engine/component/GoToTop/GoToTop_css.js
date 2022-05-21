@@ -6,8 +6,15 @@ export const Container_GoToTop = styled.div`
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  background-color: withe;
+  background-color: #fff;
   ${S.size("3rem", "3rem")}
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.2);
+    transition: 0.8s;
+  }
 
   svg {
     font-size: 3rem;
