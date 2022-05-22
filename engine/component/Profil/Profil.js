@@ -24,7 +24,7 @@ export default function Profil() {
           </blockquote>
         </header>
         <div className="callToAction">
-          <a href="">
+          <a href="/assets/doc/cv_parodi.pdf" target="_blank">
             <Download></Download>
             <span>Télécharger mon CV</span>
           </a>

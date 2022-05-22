@@ -50,43 +50,47 @@ export default function Projet() {
                 <h2 className="sticker_title">{projet.title}</h2>
               </header>
 
-              <span className="list_badge">
+              <div className="list_badge">
                 {projet.tech.map((el, key) => {
-                  return <p key={key}>{el}</p>;
+                  return (
+                    <p key={key} style={{ color: color_tech[el] }}>
+                      {el}
+                    </p>
+                  );
                 })}
-              </span>
-
-              <div className="sticker_desc">
-                <p dangerouslySetInnerHTML={{ __html: projet.desc }}></p>
-
-                <div className="sticker_link">
-                  {projet.demo && (
-                    <span className="link_icon">
-                      <a href={projet.demo} target="_blank">
-                        Démo du site
-                      </a>
-                      <Computer></Computer>
-                    </span>
-                  )}
-                  {projet.github && (
-                    <span className="link_icon">
-                      <Github></Github>
-                      <a href={projet.github} target="_blank">
-                        Github
-                      </a>
-                    </span>
-                  )}
-                </div>
-
-                <footer>
-                  {projet.codacy && (
-                    <p
-                      className="codacy_icon"
-                      dangerouslySetInnerHTML={{ __html: projet.codacy }}
-                    ></p>
-                  )}
-                </footer>
               </div>
+
+              <div className="sticker_desc text">
+                <p dangerouslySetInnerHTML={{ __html: projet.desc }}></p>
+              </div>
+
+              <div className="sticker_link">
+                {projet.demo && (
+                  <span className="link_icon">
+                    <a href={projet.demo} target="_blank">
+                      Démo du site
+                    </a>
+                    <Computer></Computer>
+                  </span>
+                )}
+                {projet.github && (
+                  <span className="link_icon">
+                    <Github></Github>
+                    <a href={projet.github} target="_blank">
+                      Github
+                    </a>
+                  </span>
+                )}
+              </div>
+
+              <footer>
+                {projet.codacy && (
+                  <p
+                    className="codacy_icon"
+                    dangerouslySetInnerHTML={{ __html: projet.codacy }}
+                  ></p>
+                )}
+              </footer>
             </article>
           </div>
         );
@@ -161,3 +165,18 @@ export default function Projet() {
     </Wrapper_project>
   );
 }
+
+const color_tech = {
+  js: "orange",
+  react: "#1b9fff",
+  firebase: "purple",
+  next: "#00a277",
+  sass: "#fa70ab",
+  html: "orange",
+  css: "#6470ff",
+  sql: "",
+  php: "purple",
+  jquery: "blue",
+  npm: "#A93226",
+  poo: "purple",
+};

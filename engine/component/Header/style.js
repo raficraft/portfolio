@@ -9,7 +9,7 @@ export const Wrapper = styled.header`
   nav {
     ${S.flex("row", "center", "center")};
     padding: ${S.spacing(4)};
-    border-bottom: 3px solid #d8e1e8;
+    /* border-bottom: 3px solid #d8e1e8; */
     & ul {
       ${S.flexCenter("row")};
 
@@ -43,12 +43,6 @@ export const Wrapper = styled.header`
               background-color: rgba(0, 0, 0, 0.5);
             }
           }
-
-          /* &[data-current="false"] {
-            .link_underline {
-              background-color: rgba(0, 0, 0, 0);
-            }
-          } */
 
           &[data-current="true"] {
             .link_underline {
