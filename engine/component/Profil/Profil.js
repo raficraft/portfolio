@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import imgProfil from "../../../public/assets/img/profil/profil_02.jpg";
+import imgProfil from "../../../public/assets/img/profil/profil_01.jpg";
 
 import { Container } from "./profil_css";
 import { Download } from "../../../public/assets/svg/icons";
@@ -18,7 +18,7 @@ export default function Profil() {
             <h2>React.js | Next.js | Javascript | Intégration WEB</h2>
           </div>
           <blockquote className="text">
-            " Evaluer et analyser les besoins de transformation digital des
+            " Evaluer et analyser les besoins en transformation digital des
             entreprises pour concevoir des solutions maintenable, scalable et
             élégante. "
           </blockquote>
@@ -39,6 +39,7 @@ export default function Profil() {
           src={imgProfil.src}
           width={imgProfil.width}
           height={imgProfil.height}
+          alt="Portrait noir et blanc de Parodi Raphaël, développeur Front-end javascript"
         ></Image>
       </div>
     </Container>

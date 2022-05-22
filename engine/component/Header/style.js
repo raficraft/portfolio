@@ -25,6 +25,36 @@ export const Wrapper = styled.header`
           text-decoration: none;
           font-size: 1.25rem;
           color: var(--primary-bg);
+          padding: 0.25rem 1rem;
+          position: relative;
+
+          .link_underline {
+            content: " ";
+            ${S.size("100%", "1px")};
+            background-color: rgba(0, 0, 0, 0);
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            transition: 0.5s;
+          }
+
+          &:hover {
+            .link_underline {
+              background-color: rgba(0, 0, 0, 0.5);
+            }
+          }
+
+          /* &[data-current="false"] {
+            .link_underline {
+              background-color: rgba(0, 0, 0, 0);
+            }
+          } */
+
+          &[data-current="true"] {
+            .link_underline {
+              background-color: var(--tertiary-bg);
+            }
+          }
         }
       }
     }

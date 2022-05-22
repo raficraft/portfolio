@@ -42,7 +42,7 @@ export const S = {
     return val + "px";
   },
   shadow: (color) => {
-    return `0 2px 4px ${color}`;
+    return `box-shadow : 0 2px 4px ${color}`;
   },
 
   iframeResponsive: (height, width) => css`

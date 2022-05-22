@@ -30,7 +30,7 @@ font-family: 'Trykker', serif; */
 }
 
 b{
-  color :#f0830f;
+  color :#C15807;
   
 }
 

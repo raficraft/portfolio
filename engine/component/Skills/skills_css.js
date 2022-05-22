@@ -24,7 +24,7 @@ export const Wrapper_hardSkills = styled.section`
       svg {
         margin: auto auto;
         font-size: 4rem;
-        color: var(--secondary-color);
+        color: var(--secondary-bg);
       }
       > p {
         width: 100%;
@@ -121,11 +121,13 @@ export const Wrapper_softSkills = styled.section`
     margin: 2rem 0;
 
     .tag {
+      border-radius: 3px;
       background-color: var(--quaternary-bg);
       padding: 0.25rem 1rem;
       margin: 0.5rem 1rem;
       font-size: 1.125rem;
       color: white;
+      ${S.shadow("grey")}
     }
   }
 `;

@@ -59,11 +59,14 @@ export default function Skills() {
                 <p>Sass</p>
               </li>
               <li className="listSvg_item">
-                {<RestfulIcon color={"dark"} />}
+                {<RestfulIcon color={"#4A5859"} />}
                 <p>RestFul API</p>
               </li>
               <li className="listSvg_item  listSvg_item--text">
-                <p className="icon_text">{`{ Orienté objet }`}</p>
+                <p
+                  className="icon_text"
+                  style={{ color: "#4A5859" }}
+                >{`{ Orienté objet }`}</p>
                 <p>POO</p>
               </li>
             </ul>
@@ -123,7 +126,7 @@ export default function Skills() {
                 <Image
                   objectFit="cover"
                   placeholder="blur"
-                  alt=""
+                  alt="Assessfirst promoteur profil , lead and creativity"
                   blurDataURL={assertFirst_img.blurDataURL}
                   src={assertFirst_img.src}
                   width={assertFirst_img.width}

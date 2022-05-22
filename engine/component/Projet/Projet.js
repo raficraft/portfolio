@@ -120,7 +120,7 @@ export default function Projet() {
 
         <ul className="bullet_point">
           <li>5 projets react</li>
-          <li>5 projets en vanilla</li>
+          <li>5 projets en vanilla JS</li>
           <li>3 projets d'intégration </li>
           <li>
             Projet autodidacte par lequel j'ai tout appris valeur éstimé à 48
@@ -155,9 +155,10 @@ export default function Projet() {
             </select>
           </div>
 
-          <p>{`${project.length} ${
-            project.length > 1 ? "projets" : "projet"
-          } ${filter}`}</p>
+          <p>
+            <b>{`${project.length}`}</b>{" "}
+            {`${project.length > 1 ? "projets" : "projet"} ${filter}`}
+          </p>
         </aside>
       </header>
 
