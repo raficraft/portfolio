@@ -1,6 +1,6 @@
 export const project_data = [
   {
-    projet: "",
+    projet: "geobiologie",
     title: "Geobiologie",
     type: "react",
     tech: ["Next.js", "js", "firebase"],
@@ -58,7 +58,7 @@ export const project_data = [
     features: ["Live demo paramétrables"],
   },
   {
-    projet: "useHooksTouchEvent",
+    projet: "hooks",
     title: "useTouchEvent",
     type: "react",
     Embed: "perso",
@@ -78,7 +78,7 @@ export const project_data = [
   },
 
   {
-    projet: "",
+    projet: "guides",
     title: "Guides.js",
     type: "javascript",
     tech: ["js", "npm"],
@@ -97,7 +97,7 @@ export const project_data = [
   },
 
   {
-    projet: "",
+    projet: "algo",
     title: "Les petits plats",
     type: "javascript",
     tech: ["html", "sass", "js"],
@@ -134,7 +134,7 @@ export const project_data = [
   },
 
   {
-    projet: "",
+    projet: "horizontal_website_engine",
     title: "Horizontal WebSite",
     type: "javascript",
     tech: ["js"],
@@ -153,7 +153,7 @@ export const project_data = [
   },
 
   {
-    projet: "",
+    projet: "fisheye",
     title: "FishEye",
     type: "javascript",
     tech: ["html", "css", "js"],
@@ -172,7 +172,7 @@ export const project_data = [
   },
 
   {
-    projet: "",
+    projet: "kasa",
     title: "Kasa",
     type: "react",
     tech: ["React", "Sass"],
@@ -190,7 +190,7 @@ export const project_data = [
     img_responsives: false,
   },
   {
-    projet: "",
+    projet: "ohmyfood",
     title: "Oh my food",
     type: "integration",
     tech: ["html", "sass"],
@@ -208,7 +208,7 @@ export const project_data = [
     img_responsives: false,
   },
   {
-    projet: "",
+    projet: "apple",
     title: "Apple Air pods max",
     type: "integration",
     tech: ["html", "sass", "js"],
@@ -246,7 +246,7 @@ export const project_data = [
   },
 
   {
-    projet: "",
+    projet: "sudoku",
     title: "Sudoku",
     type: "javascript",
     tech: ["js"],

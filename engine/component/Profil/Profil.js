@@ -34,7 +34,6 @@ export default function Profil() {
         <Image
           objectFit="cover"
           placeholder="blur"
-          alt=""
           blurDataURL={imgProfil.blurDataURL}
           src={imgProfil.src}
           width={imgProfil.width}

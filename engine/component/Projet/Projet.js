@@ -1,19 +1,17 @@
-import React, { useState, useEffect, useRef, createRef } from "react";
+import React, { useState, useEffect } from "react";
 import { project_data } from "../../data/projet/projet_data";
 import { Wrapper_project } from "./projet_css";
 import useGetImage from "../../hooks/files/useGetImage";
 import { Computer, Github } from "../../../public/assets/svg/icons";
 import { useScrollObserver } from "../../hooks/useScrollObserver";
-import { useRouter } from "next/router";
+import Image from "next/image";
 
 export default function Projet() {
   const [filter, setFilter] = useState("react");
   const [project, setProject] = useState(
     project_data.filter((x) => x.type === filter && x.active === true)
   );
-  const [filesInfo, loading] = useGetImage(["badge/"]);
-
-  const router = useRouter();
+  const [filesInfo, loading] = useGetImage(["project/group/"]);
 
   const [itemRef, itemIsVisible] = useScrollObserver({
     root: null,
@@ -34,10 +32,14 @@ export default function Projet() {
     );
   }
 
-  function listProject(isVisible) {
+  function listProject() {
     return project
       .filter((x) => x.active === true)
       .map((projet, key) => {
+        const img = filesInfo.find((x) => x.src.includes(projet.projet));
+
+        console.log("before load", img ? img.src : "none");
+
         return (
           <div
             className="sticker"
@@ -46,12 +48,17 @@ export default function Projet() {
               animationDelay: ` ${key * 0.15}s`,
             }}
           >
-            <div
-              className="sticker_img"
-              style={{
-                backgroundImage: `url('/assets/img/${projet.img}socialCard.jpg')`,
-              }}
-            ></div>
+            <div className="sticker_img">
+              <Image
+                objectFit="cover"
+                placeholder="blur"
+                src={img.src}
+                width={img.width}
+                height={img.height}
+                blurDataURL={img.blurDataURL}
+                alt="Portrait noir et blanc de Parodi Raphaël, développeur Front-end javascript"
+              ></Image>
+            </div>
             <article>
               <header>
                 <h2 className="sticker_title">{projet.title}</h2>
@@ -167,7 +174,7 @@ export default function Projet() {
         ref={itemRef}
         data-current={itemIsVisible ? "true" : "false"}
       >
-        {listProject(itemIsVisible)}
+        {!loading && listProject()}
       </div>
     </Wrapper_project>
   );
