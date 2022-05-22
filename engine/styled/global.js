@@ -193,7 +193,7 @@ hr{
 }
 
 .text{
-  line-height: 2rem ;
+  line-height: 1.5rem ;
   word-break: break-word;
 }
 
