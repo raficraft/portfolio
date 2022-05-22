@@ -123,6 +123,72 @@ export const Wrapper_project = styled.section`
           height: 1.5rem;
         }
       }
+
+      /*
+
+      header {
+        ${S.flex("row", "space-between", "center", "wrap")};
+        margin: 0 0 1rem 0;
+      }
+      &_title {
+        font-size: 2rem;
+      }
+
+      &_img {
+        aspect-ratio: 93/ 47;
+        background-size: cover;
+        display: flex;
+        overflow: hidden;
+      }
+
+      &_desc {
+        z-index: 10;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.95);
+        ${S.flex("column", "space-around", "center")};
+        margin: 1rem 0;
+
+        .codacy_icon {
+          text-align: center;
+        }
+      }
+
+      &_link {
+        ${S.flex("row", "space-between", "flex-start", "wrap")};
+        width: 100%;
+        margin: 1rem 0;
+      }
+
+      .link_icon {
+        ${S.flex("row", "center", "center")};
+        a {
+          text-decoration-color: black;
+          font-size: 1.25rem;
+        }
+        svg {
+          margin: auto 1rem;
+          ${S.size("1.5rem", "1.5rem")}
+        }
+      }
+
+      article {
+        border-top: 1px solid grey;
+        padding: 1rem;
+      }
+
+      .list_badge {
+        ${S.flex("row", "flex-start", "flex-start", "wrap")};
+        gap: 0 1rem;
+      }
+
+      footer {
+        ${S.flex("column", "center", "center", "wrap")};
+        img {
+          height: 1.5rem;
+        }
+      } */
     }
   }
 `;

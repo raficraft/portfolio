@@ -120,7 +120,7 @@ export default function Projet() {
         <ul className="bullet_point">
           <li>5 projets react</li>
           <li>5 projets en vanilla JS</li>
-          <li>3 projets d'intégration </li>
+          <li>4 projets d'intégration </li>
           <li>
             Projet autodidacte par lequel j'ai tout appris valeur éstimé à 48
             millions de dollar. ^^{" "}
@@ -128,7 +128,7 @@ export default function Projet() {
         </ul>
 
         <p className="text">
-          Pour un total de <b>9 side project</b> et{" "}
+          Pour un total de <b>11 side project</b> et{" "}
           <b>4/11 des projets professionalisant</b> effectué durant ma formation{" "}
           <b>OCR</b>.<br></br>
           Parmit eux un projet client mené de bout en bout de la conception à la

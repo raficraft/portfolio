@@ -90,10 +90,24 @@ export default function Skills() {
               voir plus importantes que les compétences techniques. Elles font
               appel à l'<b>intelligence émotionnelle</b> et jouent un rôle clé
               dans l'épanouissement d'un individu au sein de son environnement.
-              C'est avec le service d'<b>assess first</b> que j'ai pu trouver un
-              outil complet pour évaluer mon profil. Ci-dessous, vous trouverez
-              un résumé du test que j'ai passé et ci vous souhaitez accéder au
-              rapport complet, il vous suffit de <b>suivre ce lien</b>.
+              C'est avec le service d'
+              <b>
+                <a href="https://www.assessfirst.com/fr/" target="_blank">
+                  assess first
+                </a>
+              </b>{" "}
+              que j'ai pu trouver un outil complet pour évaluer mon profil.
+              Ci-dessous, vous trouverez un résumé du test que j'ai passé et ci
+              vous souhaitez accéder au rapport complet, il vous suffit de{" "}
+              <b>
+                <a
+                  href="https://app.assessfirst.com/_/profile/d53utubs-raphael-parodi"
+                  target="_blank"
+                >
+                  suivre ce lien
+                </a>
+              </b>
+              .
             </p>
           </header>
 
