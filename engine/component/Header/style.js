@@ -35,7 +35,7 @@ export const Wrapper = styled.header`
             position: absolute;
             left: 0;
             bottom: 0;
-            transition: 0.5s;
+            transition: background-color 0.5s;
           }
 
           &:hover {

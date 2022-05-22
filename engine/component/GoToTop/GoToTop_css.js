@@ -13,7 +13,7 @@ export const Container_GoToTop = styled.div`
 
   &:hover {
     transform: scale(1.2);
-    transition: 0.8s;
+    transition: transform 0.8s;
   }
 
   svg {

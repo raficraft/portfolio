@@ -87,9 +87,9 @@ export const Container = styled.section`
       text-decoration: none;
       ${S.flex("row", "center", "center")};
       padding: ${S.spacing(2)} ${S.spacing(3)};
-      transition: 0.5s linear;
+      transition: background-color 0.5s linear;
       &:hover {
-        transition: 0.5s linear;
+        transition: background-color 0.5s linear;
         background-color: #347d5c;
       }
       svg {

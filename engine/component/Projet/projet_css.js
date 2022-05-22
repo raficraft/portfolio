@@ -72,7 +72,7 @@ export const Wrapper_project = styled.section`
         transform: translateY(105%);
         animation: 0.5s ${anim.fadeOut} ease-out both;
         cursor: pointer;
-        transition: 0s;
+        transition: transform0s;
 
         .codacy_icon {
           text-align: center;
