@@ -64,7 +64,7 @@ export const Wrapper_project = styled.section`
       }
 
       &_img {
-        aspect-ratio: 93/ 47;
+        aspect-ratio: 16/ 9;
         background-size: cover;
         display: flex;
         overflow: hidden;

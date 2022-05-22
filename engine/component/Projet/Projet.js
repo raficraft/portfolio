@@ -161,7 +161,9 @@ export default function Projet() {
         </aside>
       </header>
 
-      <div className="listProject">{!loading && listProject()}</div>
+      <div className="listProject">
+        {!loading ? listProject() : <p>LOADING...</p>}
+      </div>
     </Wrapper_project>
   );
 }
