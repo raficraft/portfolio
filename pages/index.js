@@ -6,8 +6,6 @@ import Skills from "../engine/component/Skills/Skills";
 import { GlobalStyle } from "../engine/styled/global";
 
 export default function Home() {
-  console.log("render");
-
   return (
     <section>
       <Head>

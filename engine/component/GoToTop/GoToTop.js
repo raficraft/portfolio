@@ -1,17 +1,13 @@
-import React, { useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import { ScrollContext } from "../../context/ScrollProvider";
 import { Container_GoToTop } from "./GoToTop_css";
 
 export default function GoToTop() {
-  const { scrollY, scrollX, scrollDirection } = useContext(ScrollContext);
+  const { scrollY } = useContext(ScrollContext);
 
   function handleClick() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
-
-  useEffect(() => {
-    console.log(scrollY);
-  }, [scrollY]);
 
   return scrollY > 100 ? (
     <Container_GoToTop>

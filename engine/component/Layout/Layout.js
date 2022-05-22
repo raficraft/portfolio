@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import GoToTop from "../GoToTop/GoToTop";
 import Header from "../Header/Header";
 

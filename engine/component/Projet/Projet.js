@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { project_data } from "../../data/projet/projet_data";
 import { Wrapper_project } from "./projet_css";
 import useGetImage from "../../hooks/files/useGetImage";
@@ -38,8 +38,6 @@ export default function Projet() {
       .map((projet, key) => {
         const img = filesInfo.find((x) => x.src.includes(projet.projet));
 
-        console.log("before load", img ? img.src : "none");
-
         return (
           <div
             className="sticker"
@@ -56,7 +54,7 @@ export default function Projet() {
                 width={img.width}
                 height={img.height}
                 blurDataURL={img.blurDataURL}
-                alt="Portrait noir et blanc de Parodi Raphaël, développeur Front-end javascript"
+                alt={`Illustration du projet ${projet.name}`}
               ></Image>
             </div>
             <article>

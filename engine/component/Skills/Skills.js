@@ -225,46 +225,9 @@ export default function Skills() {
             <p className="tag">#expressif</p>
           </article>
         </div>
-
-        {/* <article>
-          <h2 className="text_uppecase">Mes points forts</h2>
-
-          <div className="icon_AND_list">
-            <ReactIcon></ReactIcon>
-            <ul className="bullet_point">
-              <p>Dans ma relation avec les autres</p>
-              <li>
-                Je décide en toute <b>autonomie</b>, avance seul dans mon
-                travail.
-              </li>
-              <li>
-                Je m'affirme facilement dans mes relations, <b>donne le cap</b>.
-              </li>
-              <li>
-                Je crée facilement le contact avec les autres,{" "}
-                <b>me montre avenant</b>.
-              </li>
-            </ul>
-          </div>
-        </article> */}
       </Wrapper_softSkills>
     </section>
   );
-}
-
-{
-  /* <div className="box_item">
-<div className="box_item--iframe">
-  <iframe
-    src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fassessfirst%2Fvideos%2F323300835110566%2F&show_text=false&t=0"
-    scrolling="no"
-    frameborder="0"
-    allowfullscreen="true"
-    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-    allowFullScreen="true"
-  ></iframe>
-</div>
-</div> */
 }
 
 export function Handshake(props) {
