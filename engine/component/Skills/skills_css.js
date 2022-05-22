@@ -2,6 +2,10 @@ import { S } from "../../styled/function";
 import styled from "styled-components";
 
 export const Wrapper_hardSkills = styled.section`
+  .header_top {
+    margin: 0 0 2rem 0;
+  }
+
   .listSvg {
     ${S.flex("row", "space-around", "center", "wrap")}
     width: 100%;
@@ -58,7 +62,7 @@ export const Wrapper_softSkills = styled.section`
   .two_col {
     ${S.flex("row", "space-around", "center", "nowrap")}
     gap : 2rem;
-    margin: 2rem 0;
+    margin: 4rem 0 2rem;
 
     @media (max-width: 1000px) {
       ${S.flex("column", "space-around", "center", "nowrap")}

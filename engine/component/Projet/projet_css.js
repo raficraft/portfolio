@@ -61,7 +61,6 @@ export const Wrapper_project = styled.section`
       }
 
       &_desc {
-        position: absolute;
         z-index: 10;
         top: 0;
         height: 100%;
@@ -69,10 +68,6 @@ export const Wrapper_project = styled.section`
         background-color: rgba(255, 255, 255, 0.95);
         padding: 1rem;
         ${S.flex("column", "space-around", "center")};
-        transform: translateY(105%);
-        animation: 0.5s ${anim.fadeOut} ease-out both;
-        cursor: pointer;
-        transition: transform0s;
 
         .codacy_icon {
           text-align: center;
@@ -80,7 +75,6 @@ export const Wrapper_project = styled.section`
       }
 
       &:hover .sticker_desc {
-        animation: 0.5s ${anim.fadeIn} ease-out both;
       }
 
       article {
@@ -88,43 +82,9 @@ export const Wrapper_project = styled.section`
         padding: 1rem;
       }
 
-      footer {
-        ${S.flex("column")};
-        .sticker_link {
-          ${S.flex("row", "space-between", "flex-start", "wrap")};
-          width: 100%;
-          margin: 0 0 1rem 0;
-          .link_icon {
-            ${S.flex("row", "center", "center")};
-            margin: 0 0 1rem 0;
-            a {
-              font-size: 1rem;
-              text-decoration: none;
-            }
-
-            svg {
-              font-size: 1.5rem;
-            }
-            svg {
-              margin: 0rem 0.5rem 0;
-            }
-            span {
-              margin: auto auto;
-            }
-          }
-        }
-
-        .list_badge {
-          ${S.flex("row", "flex-start", "flex-start", "wrap")};
-          gap: 0 1rem;
-        }
-      }
-    }
-
-    &[data-current="true"] {
-      .sticker {
-        animation: ${anim.goToZ} 0.5s linear;
-        animation-fill-mode: both;
+      .list_badge {
+        ${S.flex("row", "flex-start", "flex-start", "wrap")};
+        gap: 0 1rem;
       }
     }
   }

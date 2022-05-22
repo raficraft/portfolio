@@ -13,18 +13,6 @@ export default function Projet() {
   );
   const [filesInfo, loading] = useGetImage(["project/group/"]);
 
-  const [itemRef, itemIsVisible] = useScrollObserver({
-    root: null,
-    rootMargin: "0px",
-    thresold: 0.4,
-  });
-
-  const [containerRef, isVisible] = useScrollObserver({
-    root: null,
-    rootMargin: "0px",
-    thresold: 0.4,
-  });
-
   function handleChange(e) {
     setFilter(e.target.value);
     setProject(
@@ -62,7 +50,15 @@ export default function Projet() {
                 <h2 className="sticker_title">{projet.title}</h2>
               </header>
 
-              <footer>
+              <span className="list_badge">
+                {projet.tech.map((el, key) => {
+                  return <p key={key}>{el}</p>;
+                })}
+              </span>
+
+              <div className="sticker_desc">
+                <p dangerouslySetInnerHTML={{ __html: projet.desc }}></p>
+
                 <div className="sticker_link">
                   {projet.demo && (
                     <span className="link_icon">
@@ -82,29 +78,23 @@ export default function Projet() {
                   )}
                 </div>
 
-                <span className="list_badge">
-                  {projet.tech.map((el, key) => {
-                    return <p key={key}>{el}</p>;
-                  })}
-                </span>
-              </footer>
+                <footer>
+                  {projet.codacy && (
+                    <p
+                      className="codacy_icon"
+                      dangerouslySetInnerHTML={{ __html: projet.codacy }}
+                    ></p>
+                  )}
+                </footer>
+              </div>
             </article>
-            <div className="sticker_desc">
-              <p dangerouslySetInnerHTML={{ __html: projet.desc }}></p>
-              {projet.codacy && (
-                <p
-                  className="codacy_icon"
-                  dangerouslySetInnerHTML={{ __html: projet.codacy }}
-                ></p>
-              )}
-            </div>
           </div>
         );
       });
   }
 
   return (
-    <Wrapper_project className="main_content" id="projet" ref={containerRef}>
+    <Wrapper_project className="main_content" id="projet">
       <header className="project_header">
         <h2 className="title_big">Mes Projets</h2>
         <p className="text">
@@ -167,13 +157,7 @@ export default function Projet() {
         </aside>
       </header>
 
-      <div
-        className="listProject"
-        ref={itemRef}
-        data-current={itemIsVisible ? "true" : "false"}
-      >
-        {!loading && listProject()}
-      </div>
+      <div className="listProject">{!loading && listProject()}</div>
     </Wrapper_project>
   );
 }

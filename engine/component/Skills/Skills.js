@@ -15,26 +15,14 @@ export default function Skills() {
   return (
     <section className="main_content" id="Skills">
       <Wrapper_hardSkills>
-        <header>
+        <header className="header_top">
           <h2 className="title_big">Hard Skills / Soft Skills</h2>
-          <p className="text">
-            Aliqua nostrud commodo anim quis ipsum officia aliqua magna
-            cupidatat laborum eu pariatur aliquip. Aliquip nostrud consectetur
-            consequat est id minim occaecat ipsum proident incididunt. Officia
-            Lorem nostrud eiusmod amet veniam sint sunt do. Deserunt labore
-            minim duis quis minim id labore. Enim voluptate magna laborum
-            laboris veniam ea aute incididunt non aliquip minim culpa. Elit
-            incididunt exercitation ex aliqua fugiat reprehenderit sint. Velit
-            duis nostrud aliqua proident ex qui irure ea.
-          </p>
         </header>
-
-        <hr></hr>
 
         <article>
           <div className="card">
             <header>
-              <h2>Domaine d'expertise</h2>
+              <h2>Mes domaines d'expertises</h2>
             </header>
 
             <ul className="listSvg">
@@ -94,14 +82,18 @@ export default function Skills() {
             <h2>Soft skills</h2>
 
             <p className="text">
-              Reprehenderit proident anim esse sint aliquip Lorem culpa non
-              enim. Aliquip minim culpa officia enim pariatur consectetur id
-              tempor. Irure commodo eiusmod incididunt consequat eu mollit duis
-              sunt magna voluptate. Veniam quis fugiat eu cupidatat magna
-              consectetur ea nulla non laborum laboris est proident. Non amet
-              aliqua non labore labore excepteur nisi consequat consectetur
-              reprehenderit. Veniam aute irure culpa nisi. Sit eu nisi eiusmod
-              dolor dolor cupidatat eu eiusmod excepteur eu non nulla.
+              Un bon développeur ce n'est pas seulement un package de
+              compétences techniques. C'est aussi les soft skills ou encore "
+              <b>compétence personnelle et sociale</b>", orienté vers les
+              interaction humaines. Pour la bonne <b>cohésion d'une équipe</b>{" "}
+              et pour mener à son terme les projets, ces compétences sont aussi,
+              voir plus importantes que les compétences techniques. Elles font
+              appel à l'<b>intelligence émotionnelle</b> et jouent un rôle clé
+              dans l'épanouissement d'un individu au sein de son environnement.
+              C'est avec le service d'<b>assess first</b> que j'ai pu trouver un
+              outil complet pour évaluer mon profil. Ci-dessous, vous trouverez
+              un résumé du test que j'ai passé et ci vous souhaitez accéder au
+              rapport complet, il vous suffit de <b>suivre ce lien</b>.
             </p>
           </header>
 
