@@ -146,9 +146,9 @@ export default function Projet() {
 
         <p className="text">
           Pour un total de <b>11 side projects</b> et{" "}
-          <b>4/11 des projets professionnalisants</b> effectué durant ma
+          <b>4/11 des projets professionnalisants</b> effectués durant ma
           formation <b>OCR</b>.<br></br>
-          Parmit eux un projet client mené de bout en bout de la conception à la
+          Parmi eux un projet client mené de bout en bout de la conception à la
           mise en production.
         </p>
 
