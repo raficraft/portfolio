@@ -235,7 +235,7 @@ export const project_data = [
     github: "https://github.com/raficraft/Integration_404page_riot_game",
     demo: "https://nostalgic-pasteur-a8ae4e.netlify.app/",
     img: "project/integration/404/social/",
-    desc: "Projet d'intégration de maquette à partir d'un desing récupérer sur dribble.Animation de texte réalisé en javascript.",
+    desc: "Projet d'intégration de maquette à partir d'un design récupérer sur dribble. Animation de texte réalisé en javascript.",
     video: "",
     responsive: false,
     cardType: "",
