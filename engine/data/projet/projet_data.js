@@ -272,7 +272,7 @@ export const project_data = [
     github: "https://github.com/raficraft",
     demo: "https://raficraft.github.io/Sudoku/",
     img: "project/native/sudoku/social/",
-    desc: "Side project réalisé durant ma formation , pour amélorer mes compétence en programation orienté objet et en algorithme.",
+    desc: "Side project réalisé durant ma formation , pour améliorer mes compétences en programation orienté objet et en algorithme.",
     video: "",
     responsive: true,
     cardType: "",
