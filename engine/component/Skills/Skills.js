@@ -61,9 +61,9 @@ export default function Skills() {
 
             <p className="text">
               Ensuite, il y a tous les sujets connexes qui tournent autour de
-              mes domaines d'expertises. L 'esprit d'un développeur se doit de
-              rester en constante évolution et savoir être curieux et un peu
-              touche-à-tout. Par exemple <b>Figma</b> pour creéer lse maquettes
+              mes domaines d'expertises. L'esprit d'un développeur se doit de
+              rester en constante évolution et de savoir être curieux et un peu
+              touche-à-tout. Par exemple <b>Figma</b> pour créer les maquettes
               d'UX/UI , les tests unitaires et fonctionels avec <b>Jest</b>. La
               création de diagramme <b>UML</b> pour pouvoir exposer le
               fonctionnement des algorithmes. <b>Node.js et Express</b> pour la
