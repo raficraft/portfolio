@@ -32,7 +32,7 @@ export const project_data = [
     github: "https://github.com/raficraft/marvel_heroes",
     demo: "https://marvel-heroes-snd.vercel.app/",
     img: "project/react/marvel/social/",
-    desc: "Side project pour tester les différentes features du framework Next.js et aussi pour m'amuser avec canvas pour la création de radial chart. ^^",
+    desc: "Side project pour tester les différentes features du framework Next.js et aussi pour m'amuser avec canvas pour la création d'un composant radial chart. ^^",
     video: "",
     responsive: false,
     cardType: "",
