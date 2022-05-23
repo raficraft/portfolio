@@ -8,7 +8,7 @@ export const project_data = [
     github: false,
     demo: "https://www.geobiologue-loire.fr/",
     img: "project/react/geobiologie/social/",
-    desc: "Projet client mené de bout en bout, de la conception à la mise en production. Utilisation de firebase pour les données gérer par le back-end",
+    desc: "Projet client mené de bout en bout, de la conception à la mise en production. Utilisation de firebase pour les données gérées par le back-end",
     video: "",
     responsive: true,
     cardType: "",
