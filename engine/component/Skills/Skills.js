@@ -158,7 +158,7 @@ export default function Skills() {
 
                 <ul className="svg_AND_list--text">
                   <li>
-                    l décide en toute autonomie, avance seul dans son travail.
+                    il décide en toute autonomie, avance seul dans son travail.
                   </li>
                   <li>
                     Il s'affirme facilement dans ses relations, donne le cap.
