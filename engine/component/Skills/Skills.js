@@ -83,8 +83,8 @@ export default function Skills() {
             <p className="text">
               Un bon développeur ce n'est pas seulement un package de
               compétences techniques. C'est aussi les soft skills ou encore "
-              <b>compétence personnelle et sociale</b>", orienté vers les
-              interaction humaines. Pour la bonne <b>cohésion d'une équipe</b>{" "}
+              <b>compétences personnelles et sociales</b>", orientées vers les
+              interactions humaines. Pour la bonne <b>cohésion d'une équipe</b>{" "}
               et pour mener à son terme les projets, ces compétences sont aussi,
               voir plus importantes que les compétences techniques. Elles font
               appel à l'<b>intelligence émotionnelle</b> et jouent un rôle clé
