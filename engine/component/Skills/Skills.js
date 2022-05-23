@@ -61,16 +61,15 @@ export default function Skills() {
 
             <p className="text">
               Ensuite, il y a tous les sujets connexes qui tournent autour de
-              mes domaines d'expertises. L 'ésprit d'un développeur se doit de
-              garder un esprit en constante évolution et savoir être curieux et
-              un peu touche-à-tout. Par exemple <b>Figma</b> pour creéer lse
-              maquettes d'UX/UI , les tests unitaires et fonctionels avec{" "}
-              <b>Jest</b>. La création de diagramme <b>UML</b> pour pouvoir
-              exposer le fonctionnement des algorithmes.{" "}
-              <b>Node.js et Express</b> pour la mise en place d'un{" "}
-              <b>serveur back</b>. Et encore, ce ne sont que les premiers
-              éléments qui me viennent à l'esprit tant le champ des possibles et
-              vaste et immense.
+              mes domaines d'expertises. L 'esprit d'un développeur se doit de
+              rester en constante évolution et savoir être curieux et un peu
+              touche-à-tout. Par exemple <b>Figma</b> pour creéer lse maquettes
+              d'UX/UI , les tests unitaires et fonctionels avec <b>Jest</b>. La
+              création de diagramme <b>UML</b> pour pouvoir exposer le
+              fonctionnement des algorithmes. <b>Node.js et Express</b> pour la
+              mise en place d'un <b>serveur back</b>. Et encore, ce ne sont que
+              les premiers éléments qui me viennent à l'esprit tant le champ des
+              possibles et vaste et immense.
             </p>
           </div>
         </article>
