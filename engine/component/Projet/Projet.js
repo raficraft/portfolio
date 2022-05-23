@@ -91,6 +91,13 @@ export default function Projet() {
                     </a>
                   </span>
                 )}
+                {projet.video && (
+                  <span className="link_icon">
+                    <a href={projet.video} target="_blank">
+                      Video youtube
+                    </a>
+                  </span>
+                )}
               </div>
 
               <footer>
