@@ -109,7 +109,7 @@ export default function Skills() {
           <article className="two_col">
             <div className="box_item">
               <header>
-                <h2>Style personel : promoteur</h2>
+                <h2>Style personnel : promoteur</h2>
               </header>
 
               <p className="text">
