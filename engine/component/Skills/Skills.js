@@ -86,7 +86,7 @@ export default function Skills() {
               <b>compétences personnelles et sociales</b>", orientées vers les
               interactions humaines. Pour la bonne <b>cohésion d'une équipe</b>{" "}
               et pour mener à son terme les projets, ces compétences sont aussi,
-              voir plus importantes que les compétences techniques. Elles font
+              voire plus, importantes que les compétences techniques. Elles font
               appel à l'<b>intelligence émotionnelle</b> et jouent un rôle clé
               dans l'épanouissement d'un individu au sein de son environnement.
               C'est avec le service d'
