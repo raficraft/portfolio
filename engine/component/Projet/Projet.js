@@ -46,8 +46,18 @@ export default function Projet() {
               ></Image>
             </div>
             <article>
-              <header>
+              <header className="sticker_header">
                 <h2 className="sticker_title">{projet.title}</h2>
+                <span className="sticker_icon">
+                  <ComputerIcon></ComputerIcon>
+
+                  {projet.responsive && (
+                    <>
+                      <SmartphoneIcon></SmartphoneIcon>
+                      <TabletIcon></TabletIcon>
+                    </>
+                  )}
+                </span>
               </header>
 
               <div className="list_badge">
@@ -182,3 +192,37 @@ const color_tech = {
   npm: "#A93226",
   poo: "purple",
 };
+
+export function TabletIcon(props) {
+  return (
+    <svg width="0.79em" height="1em" viewBox="0 0 25 32" {...props}>
+      <g fill="currentColor">
+        <path d="M1.5 32h22c.827 0 1.5-.673 1.5-1.5v-29c0-.827-.673-1.5-1.5-1.5h-22C.673 0 0 .673 0 1.5v29c0 .827.673 1.5 1.5 1.5zM1 1.5a.5.5 0 0 1 .5-.5h22a.5.5 0 0 1 .5.5v29a.5.5 0 0 1-.5.5h-22a.5.5 0 0 1-.5-.5v-29z"></path>
+        <path d="M3.5 27h18a.5.5 0 0 0 .5-.5v-23a.5.5 0 0 0-.5-.5h-18a.5.5 0 0 0-.5.5v23a.5.5 0 0 0 .5.5zM4 4h17v22H4V4z"></path>
+        <circle cx="13" cy="29" r="1"></circle>
+      </g>
+    </svg>
+  );
+}
+
+export function SmartphoneIcon(props) {
+  return (
+    <svg width="1em" height="1em" viewBox="0 0 1024 1024" {...props}>
+      <path
+        fill="currentColor"
+        d="M704.144 0H319.856c-53.024 0-96 42.976-96 96v832c0 53.024 42.976 96 96 96h384.288c53.024 0 96-42.976 96-96V96c0-53.024-42.976-96-96-96zm32 928c0 17.664-14.336 32-32 32H319.856c-17.664 0-32-14.336-32-32V96c0-17.664 14.336-32 32-32h384.288c17.664 0 32 14.336 32 32v832zM512.048 800.176c-35.28 0-63.84 28.592-63.84 63.824s28.576 63.841 63.84 63.841c35.28 0 63.84-28.608 63.84-63.84c0-35.233-28.56-63.825-63.84-63.825zm64-704.176h-128c-17.664 0-32 14.336-32 32s14.336 32 32 32h128c17.664 0 32-14.336 32-32s-14.336-32-32-32z"
+      ></path>
+    </svg>
+  );
+}
+
+export function ComputerIcon(props) {
+  return (
+    <svg width="1em" height="1em" viewBox="0 0 512 512" {...props}>
+      <path
+        fill="currentColor"
+        d="M40 392h200v72h-80v32h192v-32h-80v-72h200a24.028 24.028 0 0 0 24-24V72a24.028 24.028 0 0 0-24-24H40a24.028 24.028 0 0 0-24 24v296a24.028 24.028 0 0 0 24 24Zm8-312h416v280H48Z"
+      ></path>
+    </svg>
+  );
+}

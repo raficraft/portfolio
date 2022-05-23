@@ -50,6 +50,14 @@ export const Wrapper_project = styled.section`
         font-size: 1.75rem;
       }
 
+      &_header {
+        ${S.flex("row", "space-between", "flex-start")};
+        svg {
+          margin: auto 0.25rem;
+          ${S.size("1.5rem", "1.5rem")}
+        }
+      }
+
       &:hover {
         border: 1px solid var(--tertiary-bg);
         border-top: 5px solid var(--tertiary-bg);
