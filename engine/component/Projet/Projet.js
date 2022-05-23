@@ -119,15 +119,15 @@ export default function Projet() {
       <header className="project_header">
         <h2 className="title_big">Mes Projets</h2>
         <p className="text">
-          Découvrez dans cette section mes différents <b>projets perso</b> ainsi
-          que ceux effectué durant ma formation en distanciel via
+          Découvrez dans cette section mes différents <b>projets persos</b>{" "}
+          ainsi que ceux effectués durant ma formation en distanciel via
           OpenClassrooms.
           <br></br>
           Vous pouvez suivre ce{" "}
           <a href="https://github.com/raficraft" target="_blank">
             <b>lien</b>
           </a>{" "}
-          pour accéder à la totalité de mes projets public sur mon{" "}
+          pour accéder à la totalité de mes projets publics sur mon{" "}
           <a href="https://github.com/raficraft" target="_blank">
             <b>Github</b>
           </a>
