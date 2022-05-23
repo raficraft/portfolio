@@ -149,7 +149,7 @@ hr{
 
 .main_content{
   padding : 1rem;  
-  margin : 0 0 12rem 0;
+  margin : 0 0 10rem 0;
 }
 
 
