@@ -161,7 +161,7 @@ export const project_data = [
     github: "https://github.com/raficraft/OCR_fisheye_p6",
     demo: "https://raficraft.github.io/OCR_fisheye_p6/",
     img: "project/native/fisheye/social/",
-    desc: "SPA pour une application de photographe avec la prise en compte de l'accessibilité comme axe principal de travail. ",
+    desc: "SPA pour une application de photographes avec la prise en compte de l'accessibilité comme axe principal de travail. ",
     video: "",
     responsive: true,
     cardType: "",
