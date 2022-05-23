@@ -181,11 +181,12 @@ export default function Skills() {
                     conceptuel.
                   </li>
                   <li>
-                    Il s'affirme facilement dans ses relations, donne le cap.
+                    Il est force de proposition, produit facilement de nouvelles
+                    idées.
                   </li>
                   <li>
-                    Il crée facilement le contact avec les autres, se montre
-                    avenant.
+                    Il gère aisément les imprévus, possède une capacité
+                    d'improvisation.
                   </li>
                 </ul>
               </div>
