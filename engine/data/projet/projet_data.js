@@ -86,7 +86,7 @@ export const project_data = [
     github: "https://github.com/raficraft/guide_JS",
     demo: "https://flamboyant-saha-06f6cd.netlify.app/",
     img: "project/native/guides/social/",
-    desc: "Outil déstiné au développeurs pour leur permettre de vérifier facilement les alignements des élément HTML. Package installable via une commande NPM",
+    desc: "Outil déstiné aux développeurs pour leur permettre de vérifier facilement les alignements des éléments HTML. Package installable via une commande NPM",
     video: "",
     responsive: false,
     cardType: "",
