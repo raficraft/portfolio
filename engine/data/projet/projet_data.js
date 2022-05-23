@@ -216,7 +216,7 @@ export const project_data = [
     github: "https://github.com/raficraft/Integration_page_Air_Pods_MAX",
     demo: "https://competent-galileo-625979.netlify.app/",
     img: "project/integration/apple/social/",
-    desc: "Projet d'intégration de maquette à partir d'un desing récupérer sur dribble.Changement dynamique des couleur du produit avec javacript",
+    desc: "Projet d'intégration de maquette à partir d'un design récupérer sur dribble. Changement dynamique des couleur du produit avec javacript",
     video: "",
     responsive: false,
     cardType: "",
