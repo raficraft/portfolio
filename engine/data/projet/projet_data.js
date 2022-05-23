@@ -290,7 +290,7 @@ export const project_data = [
     github: "",
     demo: false,
     img: "project/autodidacte/css3ui/social/",
-    desc: "Css3UI est plugin vous permettant de créer et de modifier directement vos feuilles de styles directement depuis votre navigateur.<br><br>Projet autodidacte commencé en 2009 qui m'a permis d'apprendre à coder et de surtout d'apprendre à manipuler et à modeliser des structures de données complexes avec la méthode Merise.",
+    desc: "Css3UI est plugin vous permettant de créer et de modifier directement vos feuilles de styles depuis votre navigateur.<br><br>Projet autodidacte commencé en 2009 qui m'a permis d'apprendre à coder et de surtout d'apprendre à manipuler et à modeliser des structures de données complexes avec la méthode Merise.",
     video: "https://www.youtube.com/watch?v=pX-G8v5tU9A&t",
     responsive: false,
     cardType: "",
