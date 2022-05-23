@@ -18,9 +18,9 @@ export default function Profil() {
             <h2>React.js | Next.js | Javascript | Intégration WEB</h2>
           </div>
           <blockquote className="text">
-            " Evaluer et analyser les besoins en transformation digital des
-            entreprises pour concevoir des solutions maintenable, scalable et
-            élégante. "
+            " Evaluer et analyser les besoins en transformation digitale des
+            entreprises pour concevoir des solutions maintenables, scalables et
+            élégantes. "
           </blockquote>
         </header>
         <div className="callToAction">
