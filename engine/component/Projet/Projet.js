@@ -166,7 +166,7 @@ export default function Projet() {
             >
               <option value="react">React</option>
               <option value="javascript">Javascript</option>
-              <option value="integration">integration</option>
+              <option value="integration">Intégration</option>
               <option value="autodidacte">Autodidacte</option>
             </select>
           </div>
