@@ -253,7 +253,7 @@ export const project_data = [
     github: "https://github.com/raficraft/OCR_reservia_p2",
     demo: "https://raficraft.github.io/OCR_reservia_p2/",
     img: "project/integration/reservia/social/",
-    desc: "Intégration d'une maquette fournie au format PNG d'un site de réservations de vacances.<br><br> Deuxième projet du parcours développeur web d'OpenClassRooms.",
+    desc: "Intégration d'une maquette fournie au format PNG d'un site de réservation de vacances.<br><br> Deuxième projet du parcours développeur web d'OpenClassRooms.",
     video: "",
     responsive: true,
     cardType: "",
