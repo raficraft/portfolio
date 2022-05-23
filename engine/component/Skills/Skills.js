@@ -94,7 +94,7 @@ export default function Skills() {
                 <b> assess first </b>
               </a>{" "}
               que j'ai pu trouver un outil complet pour évaluer mon profil.
-              Ci-dessous, vous trouverez un résumé du test que j'ai passé et ci
+              Ci-dessous, vous trouverez un résumé du test que j'ai passé et si
               vous souhaitez accéder au rapport complet, il vous suffit de{" "}
               <a
                 href="https://app.assessfirst.com/_/profile/d53utubs-raphael-parodi"
