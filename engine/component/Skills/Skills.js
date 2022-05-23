@@ -153,7 +153,7 @@ export default function Skills() {
               <div className="svg_AND_list--item box_item">
                 <span className="svg_AND_list--icon">
                   <Handshake></Handshake>
-                  <h3>Dans ma relations avec les autres</h3>
+                  <h3>Dans ses relations avec les autres</h3>
                 </span>
 
                 <ul className="svg_AND_list--text">
@@ -172,7 +172,7 @@ export default function Skills() {
               <div className="svg_AND_list--item box_item">
                 <span className="svg_AND_list--icon">
                   <IconIdea></IconIdea>
-                  <h3>Dans ma manière de travailler</h3>
+                  <h3>Dans sa manière de travailler</h3>
                 </span>
 
                 <ul className="svg_AND_list--text">
