@@ -5,7 +5,7 @@ export const nav_data = [
     icon: null,
   },
   {
-    title: "Projet",
+    title: "Projets",
     link: "#projet",
     icon: null,
   },
