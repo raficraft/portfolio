@@ -1,5 +1,22 @@
 export const project_data = [
   {
+    projet: "space_tourism",
+    title: "space_tourism",
+    type: "react",
+    tech: ["react", "router", "styled", "jest"],
+    readme: "/",
+    github: "https://github.com/raficraft/frontend_mentor_space_tourism",
+    demo: "https://space-tourism-r-parodi.vercel.app/",
+    img: "project/react/geobiologie/social/",
+    desc: "Challenge de niveau intermediare <b>[3]</b> du site frontend mentor. Ce projet est une collaboration amusante entre <b>Scrimba et Kevin Powell</b>! ",
+    video: "",
+    responsive: true,
+    cardType: "",
+    active: true,
+    codacy: `<a href="https://www.codacy.com/gh/raficraft/frontend_mentor_space_tourism/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raficraft/frontend_mentor_space_tourism&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/4043dd29787643ba8fcd5eeb456838b1"/></a>`,
+    features: [],
+  },
+  {
     projet: "geobiologie",
     title: "Geobiologie",
     type: "react",
@@ -21,7 +38,6 @@ export const project_data = [
       "masonry grid",
       "responsive",
     ],
-    img_responsives: false,
   },
   {
     projet: "marvel",
@@ -74,7 +90,6 @@ export const project_data = [
     active: true,
     codacy: `<a href="https://www.codacy.com/gh/raficraft/useTouchEvent/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raficraft/useTouchEvent&amp;utm_campaign=Badge_Grade" target="_blank"><img src="https://app.codacy.com/project/badge/Grade/be3443166a7d42ff8f2e4a1caa7e886b"/ alt="badge codacy"></a>`,
     features: [""],
-    img_responsives: false,
   },
 
   {
@@ -93,7 +108,6 @@ export const project_data = [
     active: true,
     codacy: `<a href="https://www.codacy.com/gh/raficraft/guides_standAlone/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raficraft/guides_standAlone&amp;utm_campaign=Badge_Grade" target="_blank"><img src="https://app.codacy.com/project/badge/Grade/8386670bb2034990afba4638bd63e029"/ alt="badge codacy"></a>`,
     features: [""],
-    img_responsives: false,
   },
 
   {
@@ -112,7 +126,6 @@ export const project_data = [
     active: true,
     codacy: `<a href="https://www.codacy.com/gh/raficraft/OCR_P7_algorithmes/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raficraft/OCR_P7_algorithmes&amp;utm_campaign=Badge_Grade" target="_blank"><img src="https://app.codacy.com/project/badge/Grade/021b7abe17da40f3b42b05c4e0f9daf1"/ alt="badge codacy"></a>`,
     features: [""],
-    img_responsives: false,
   },
   {
     projet: "",
@@ -130,7 +143,6 @@ export const project_data = [
     active: false,
     codacy: false,
     features: [""],
-    img_responsives: false,
   },
 
   {
@@ -149,7 +161,6 @@ export const project_data = [
     active: true,
     codacy: `<a href="https://www.codacy.com/gh/raficraft/horizontal-webSite-engine/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raficraft/horizontal-webSite-engine&amp;utm_campaign=Badge_Grade" target="_blank"><img src="https://app.codacy.com/project/badge/Grade/c1000773f45148b8819950023a6924dd" alt="badge codacy"/></a>`,
     features: [""],
-    img_responsives: false,
   },
 
   {
@@ -168,7 +179,6 @@ export const project_data = [
     active: true,
     codacy: `<a href="https://www.codacy.com/gh/raficraft/OCR_fisheye_p6/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raficraft/OCR_fisheye_p6&amp;utm_campaign=Badge_Grade" target="_blank"><img src="https://app.codacy.com/project/badge/Grade/18ad241d334c49b1bdd06892b9a37672"/ alt="badge codacy"></a>`,
     features: [""],
-    img_responsives: false,
   },
 
   {
@@ -187,7 +197,6 @@ export const project_data = [
     active: true,
     codacy: `<a href="https://www.codacy.com/gh/raficraft/OCR_KASA_p11/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raficraft/OCR_KASA_p11&amp;utm_campaign=Badge_Grade" target="_blank"><img src="https://app.codacy.com/project/badge/Grade/585afc15bc9c45d7a4b95be710022dfd"/ alt="badge codacy"></a>`,
     features: [""],
-    img_responsives: false,
   },
   {
     projet: "ohmyfood",
@@ -205,7 +214,6 @@ export const project_data = [
     active: true,
     codacy: `<a href="https://www.codacy.com/gh/raficraft/OCR_oh_my_food_p3/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raficraft/OCR_oh_my_food_p3&amp;utm_campaign=Badge_Grade" target="_blank"><img src="https://app.codacy.com/project/badge/Grade/8f517e00e9ee4a9eaa0997d3cb808bac"/ alt="badge codacy"></a>`,
     features: [""],
-    img_responsives: false,
   },
   {
     projet: "apple",
@@ -223,7 +231,6 @@ export const project_data = [
     active: true,
     codacy: `<a href="https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raficraft/Integration_page_Air_Pods_MAX&amp;utm_campaign=Badge_Grade" target="_blank"><img src="https://app.codacy.com/project/badge/Grade/de34f39210114edca6b5976913952582"/ alt="badge codacy"></a>`,
     features: [""],
-    img_responsives: false,
   },
 
   {
@@ -242,7 +249,6 @@ export const project_data = [
     active: true,
     codacy: `<a href="https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raficraft/Integration_404page_riot_game&amp;utm_campaign=Badge_Grade" target="_blank"><img src="https://app.codacy.com/project/badge/Grade/1bcaf8237e6e4818add46db22c5eeda6"/ alt="badge codacy"></a>`,
     features: [""],
-    img_responsives: false,
   },
   {
     projet: "reservia",
@@ -260,7 +266,6 @@ export const project_data = [
     active: true,
     codacy: `<a href="https://www.codacy.com/gh/raficraft/OCR_reservia_p2/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raficraft/OCR_reservia_p2&amp;utm_campaign=Badge_Grade" target="_blank"><img src="https://app.codacy.com/project/badge/Grade/6c59cd6fae134d43a0a5e0cb98e8b872"/ alt="badge codacy"></a>`,
     features: [""],
-    img_responsives: false,
   },
 
   {
@@ -279,7 +284,6 @@ export const project_data = [
     active: true,
     codacy: `<a href="https://www.codacy.com/gh/raficraft/Sudoku/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raficraft/Sudoku&amp;utm_campaign=Badge_Grade" target="_blank"><img src="https://app.codacy.com/project/badge/Grade/0fc929461d134b65960283413dcf97d4"/ alt="badge codacy"></a>`,
     features: [""],
-    img_responsives: false,
   },
   {
     projet: "css3ui",
@@ -297,7 +301,6 @@ export const project_data = [
     active: true,
     codacy: false,
     features: [""],
-    img_responsives: false,
   },
 
   //Inactive projet
@@ -318,7 +321,6 @@ export const project_data = [
     active: false,
     codacy: false,
     features: [""],
-    img_responsives: false,
   },
   {
     projet: "",
@@ -336,7 +338,6 @@ export const project_data = [
     active: false,
     codacy: false,
     features: [""],
-    img_responsives: false,
   },
   {
     projet: "",
@@ -354,7 +355,6 @@ export const project_data = [
     active: false,
     codacy: false,
     features: [""],
-    img_responsives: false,
   },
   {
     projet: "",
@@ -372,7 +372,6 @@ export const project_data = [
     active: false,
     codacy: false,
     features: [""],
-    img_responsives: false,
   },
 
   {
@@ -391,7 +390,6 @@ export const project_data = [
     active: false,
     codacy: false,
     features: [""],
-    img_responsives: false,
   },
 
   {
@@ -410,7 +408,6 @@ export const project_data = [
     active: false,
     codacy: false,
     features: [""],
-    img_responsives: false,
   },
 
   {
@@ -429,7 +426,6 @@ export const project_data = [
     active: false,
     codacy: false,
     features: [""],
-    img_responsives: false,
   },
   {
     projet: "",
@@ -447,6 +443,5 @@ export const project_data = [
     active: false,
     codacy: false,
     features: [""],
-    img_responsives: false,
   },
 ];

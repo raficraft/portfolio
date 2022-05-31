@@ -3,8 +3,8 @@ import { project_data } from "../../data/projet/projet_data";
 import { Wrapper_project } from "./projet_css";
 import useGetImage from "../../hooks/files/useGetImage";
 import { Computer, Github } from "../../../public/assets/svg/icons";
-import { useScrollObserver } from "../../hooks/useScrollObserver";
 import Image from "next/image";
+import react from "react";
 
 export default function Projet() {
   const [filter, setFilter] = useState("react");
@@ -63,8 +63,8 @@ export default function Projet() {
               <div className="list_badge">
                 {projet.tech.map((el, key) => {
                   return (
-                    <p key={key} style={{ color: color_tech[el] }}>
-                      {el}
+                    <p key={key} style={{ color: color_tech[el].color }}>
+                      {color_tech[el].name}
                     </p>
                   );
                 })}
@@ -94,7 +94,7 @@ export default function Projet() {
                 {projet.video && (
                   <span className="link_icon">
                     <a href={projet.video} target="_blank">
-                      Video youtube
+                      Vidéo youtube
                     </a>
                   </span>
                 )}
@@ -135,17 +135,17 @@ export default function Projet() {
         </p>
 
         <ul className="bullet_point">
-          <li>5 projets react</li>
+          <li>6 projets react</li>
           <li>5 projets en vanilla JS</li>
           <li>4 projets d'intégration </li>
           <li>
-            Projet autodidacte par lequel j'ai tout appris valeur éstimée à 48
+            Projet autodidacte avec lequel j'ai tout appris valeur éstimée à 48
             millions de dollar. ^^{" "}
           </li>
         </ul>
 
         <p className="text">
-          Pour un total de <b>11 side projects</b> et{" "}
+          Pour un total de <b>12 side projects</b> et{" "}
           <b>4/11 des projets professionnalisants</b> effectués durant ma
           formation <b>OCR</b>.<br></br>
           Parmi eux, un projet client mené de bout en bout de la conception à la
@@ -186,18 +186,66 @@ export default function Projet() {
 }
 
 const color_tech = {
-  js: "orange",
-  react: "#1b9fff",
-  firebase: "purple",
-  next: "#00a277",
-  sass: "#fa70ab",
-  html: "orange",
-  css: "#6470ff",
-  sql: "",
-  php: "purple",
-  jquery: "blue",
-  npm: "#A93226",
-  poo: "purple",
+  js: {
+    color: "orange",
+    name: "js",
+  },
+  react: {
+    color: "#1b9fff",
+    name: "react",
+  },
+  firebase: {
+    color: "purple",
+    name: "firebase",
+  },
+  next: {
+    color: "#00a277",
+    name: "next",
+  },
+  sass: {
+    color: "#fa70ab",
+    name: "sass",
+  },
+  html: {
+    color: "orange",
+    name: "html",
+  },
+  css: {
+    color: "#6470ff",
+    name: "css",
+  },
+  sql: {
+    color: "black",
+    name: "sql",
+  },
+  php: {
+    color: "purple",
+    name: "php",
+  },
+  jquery: {
+    color: "blue",
+    name: "jquery",
+  },
+  npm: {
+    color: "#A93226",
+    name: "npm",
+  },
+  poo: {
+    color: "purple",
+    name: "poo",
+  },
+  styled: {
+    color: "#e39275",
+    name: "cssinjs",
+  },
+  router: {
+    color: "black",
+    name: "router",
+  },
+  jest: {
+    color: "#944058",
+    name: "jest",
+  },
 };
 
 export function TabletIcon(props) {
