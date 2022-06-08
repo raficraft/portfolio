@@ -28,7 +28,7 @@ export const Container = styled.section`
     @media screen and (max-width: 600px) {
       margin: auto auto;
       margin-bottom: 1rem;
-      height: calc(100vw - 8rem);
+      height: calc(100vw - 10rem);
     }
     @media screen and (min-width: 601px) {
       ${S.responsiveContainer("430px")}
@@ -62,7 +62,7 @@ export const Container = styled.section`
 
   h2 {
     text-align: center;
-    @media (min-width: 601px) {
+    @media screen and (min-width: 601px) {
       margin: 0 0 2rem 0;
       text-align: left;
     }
@@ -70,7 +70,7 @@ export const Container = styled.section`
 
   blockquote {
     margin: 0 0 2rem 0;
-    @media (min-width: 601px) {
+    @media screen and (min-width: 601px) {
       text-align: left;
     }
   }
