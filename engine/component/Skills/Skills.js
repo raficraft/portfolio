@@ -7,6 +7,7 @@ import {
   SassIcon,
   SqlIcon,
   IconJest,
+  IconsTestinglibrary,
 } from "../../../public/assets/svg/icon_tech";
 import { Wrapper_hardSkills, Wrapper_softSkills } from "./skills_css";
 import assertFirst_img from "../../../public/assets/UI/assertFirst.jpg";
@@ -54,6 +55,10 @@ export default function Skills() {
               <li className="listSvg_item">
                 {<IconJest color={"#4A5859"} />}
                 <p>Jest</p>
+              </li>
+              <li className="listSvg_item">
+                {<IconsTestinglibrary color={"#4A5859"} />}
+                <p>Testing Library</p>
               </li>
               <li className="listSvg_item  listSvg_item--text">
                 <p
