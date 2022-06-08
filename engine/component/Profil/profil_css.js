@@ -19,17 +19,17 @@ export const Container = styled.section`
 
   .imgProfil {
     ${S.flexCenter("row")};
+    margin: 0 0 2rem 0;
 
     span {
       border-radius: 16px;
     }
-    @media (max-width: 600px) {
+    @media screen and (max-width: 600px) {
       margin: auto auto;
-      margin-bottom: 2rem;
-      width: calc(100vw - 8rem);
-      height: calc(100vw - 12rem);
+      margin-bottom: 1rem;
+      height: calc(100vw - 8rem);
     }
-    @media (min-width: 601px) {
+    @media screen and (min-width: 601px) {
       ${S.responsiveContainer("430px")}
     }
   }
@@ -40,10 +40,15 @@ export const Container = styled.section`
     .text {
       font-size: 1.5rem;
       line-height: 2rem;
+
+      @media screen and (max-width: 601px) {
+        text-align: center;
+        font-size: 1rem;
+      }
     }
 
     header {
-      @media (min-width: 601px) {
+      @media screen and (min-width: 601px) {
         margin: 0 0 6rem 0;
       }
     }
@@ -51,10 +56,11 @@ export const Container = styled.section`
 
   .bigTitle {
     text-align: center;
-    @media (min-width: 601px) {
+    margin: 0 0 2rem 0;
+    @media screen and (min-width: 601px) {
       text-align: left;
       font-size: 5.5rem;
-      ${S.flex("column", "flex-start", "center")};
+      ${S.flex("column", "flex-start", "flex-start")};
       margin-bottom: 3rem;
     }
   }
@@ -68,9 +74,7 @@ export const Container = styled.section`
   }
 
   blockquote {
-    font-size: 1.25rem;
-    text-align: center;
-    margin: 0 0 2rem 0;
+    margin: 0 0 4rem 0;
     @media (min-width: 601px) {
       text-align: left;
     }

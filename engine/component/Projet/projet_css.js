@@ -111,14 +111,14 @@ export const Wrapper_project = styled.section`
         ${S.flex("row", "center", "center")};
         a {
           text-decoration-color: black;
-          font-size: 1.25rem;
+          font-size: 1.125rem;
           &:hover {
             color: red;
             text-decoration-color: red;
           }
         }
         svg {
-          margin: auto 1rem;
+          margin: auto 0.5rem;
           ${S.size("1.5rem", "1.5rem")}
         }
       }
