@@ -3,7 +3,7 @@ export const project_data = [
     projet: "photosnap",
     title: "Photosnap",
     type: "react",
-    tech: ["next", "cssinjs", "jest", "TDD"],
+    tech: ["next", "cssinjs", "jest"],
     readme: "/",
     github: "https://github.com/raficraft/photosnap",
     demo: "https://photosnap-r-parodi.vercel.app/",
