@@ -92,6 +92,9 @@ export const Container = styled.section`
       ${S.flex("row", "center", "center")};
       padding: ${S.spacing(2)} ${S.spacing(3)};
       transition: background-color 0.5s linear;
+      @media screen and (max-width: 600px) {
+        font-size: 1.25rem;
+      }
       &:hover {
         transition: background-color 0.5s linear;
         background-color: #347d5c;
