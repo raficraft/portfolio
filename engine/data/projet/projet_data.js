@@ -13,7 +13,7 @@ export const project_data = [
     responsive: true,
     cardType: "",
     active: true,
-    codacy: false,
+    codacy: `https://www.linkedin.com/feed/update/urn:li:activity:6940186482414387200/?commentUrn=urn%3Ali%3Acomment%3A(activity%3A6940186482414387200%2C6940188107325489152)&replyUrn=urn%3Ali%3Acomment%3A(activity%3A6940186482414387200%2C6940189342422208512)`,
     features: [],
   },
   {
