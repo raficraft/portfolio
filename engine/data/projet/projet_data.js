@@ -13,7 +13,7 @@ export const project_data = [
     responsive: true,
     cardType: "",
     active: true,
-    codacy: `https://www.linkedin.com/feed/update/urn:li:activity:6940186482414387200/?commentUrn=urn%3Ali%3Acomment%3A(activity%3A6940186482414387200%2C6940188107325489152)&replyUrn=urn%3Ali%3Acomment%3A(activity%3A6940186482414387200%2C6940189342422208512)`,
+    codacy: `<a href="https://www.codacy.com/gh/raficraft/photosnap/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raficraft/photosnap&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/b8f2e42b222e44b996c94fce9965673e"/></a>`,
     features: [],
   },
   {
