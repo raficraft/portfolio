@@ -36,6 +36,11 @@ export const Container = styled.section`
 
   .punchline {
     ${S.flex("column", "center", "flex-start")};
+    flex: 1;
+    .text {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
 
     header {
       @media (min-width: 601px) {

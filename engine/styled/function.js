@@ -7,7 +7,7 @@ export const S = {
     direction = "row",
     justify = "flex-start",
     align = "flex-start",
-    wrap = "nowrap"
+    wrap = "wrap"
   ) => css`
     display: flex;
     flex-direction: ${direction};
