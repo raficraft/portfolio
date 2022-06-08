@@ -13,7 +13,7 @@ export const project_data = [
     responsive: true,
     cardType: "",
     active: true,
-    codacy: `false`,
+    codacy: false,
     features: [],
   },
   {
