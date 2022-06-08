@@ -104,7 +104,7 @@ export const project_data = [
     video: "",
     responsive: true,
     cardType: "",
-    active: true,
+    active: false,
     codacy: `<a href="https://www.codacy.com/gh/raficraft/useTouchEvent/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raficraft/useTouchEvent&amp;utm_campaign=Badge_Grade" target="_blank"><img src="https://app.codacy.com/project/badge/Grade/be3443166a7d42ff8f2e4a1caa7e886b"/ alt="badge codacy"></a>`,
     features: [""],
   },
