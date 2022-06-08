@@ -246,6 +246,10 @@ const color_tech = {
     color: "#944058",
     name: "jest",
   },
+  TDD: {
+    color: "#4a9440",
+    name: "TDD",
+  },
 };
 
 export function TabletIcon(props) {
