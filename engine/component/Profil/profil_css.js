@@ -12,8 +12,9 @@ export const Container = styled.section`
     flex: 1;
     ${S.flex("column", "space-between", "flex-start")};
     padding: 2rem 0 0 0;
-    @media (min-width: 601px) {
+    @media screen and (min-width: 601px) {
       padding: 8rem 0 0 0;
+      margin: 0 0 6rem 0;
     }
   }
 
@@ -46,12 +47,6 @@ export const Container = styled.section`
         font-size: 1rem;
       }
     }
-
-    header {
-      @media screen and (min-width: 601px) {
-        margin: 0 0 6rem 0;
-      }
-    }
   }
 
   .bigTitle {
@@ -74,7 +69,7 @@ export const Container = styled.section`
   }
 
   blockquote {
-    margin: 0 0 4rem 0;
+    margin: 0 0 2rem 0;
     @media (min-width: 601px) {
       text-align: left;
     }
