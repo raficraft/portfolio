@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
 /* font-family: 'Bigshot One', cursive;
 font-family: 'Khand', sans-serif;
 font-family: 'Trykker', serif; */
+/*font-family: 'Poppins', sans-serif;*/
 
 :root{
 
@@ -19,8 +20,8 @@ font-family: 'Trykker', serif; */
   --wrapper_inside : 1330px;
 
   --primary-font: font-family: 'Bigshot One', cursive;;
-  --secondary-font :font-family: 'Khand', sans-serif;
-  --tertiary-font :font-family: 'Trykker', serif; 
+  --secondary-font :font-family: 'Poppins', sans-serif;
+  --tertiary-font :font-family: 'Poppins', sans-serif;; 
 
   @media (max-width: 601px) {
     --wrapper_inside : calc(100vw - 2rem);
@@ -84,9 +85,10 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
-  font-family: 'Bigshot One', cursive;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;;
   margin-bottom: 1rem;
+  font-weight: bold;
 
 }
 
@@ -193,8 +195,9 @@ hr{
 }
 
 .text{
-  line-height: 1.7rem ;
+  line-height: 36px ;
   word-break: break-word;
+  font-size: 22px;
 }
 
 .title_big{
