@@ -16,8 +16,8 @@ export default function Home() {
       <GlobalStyle />
       <div className="wrapper_inside">
         <Profil></Profil>
-        <Projet></Projet>
         <Skills></Skills>
+        <Projet></Projet>
       </div>
     </section>
   );
