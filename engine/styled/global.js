@@ -13,8 +13,8 @@ font-family: 'Trykker', serif; */
 
   --primary-bg: #32373B;
   --secondary-bg :#4A5859;
-  --tertiary-bg :#84B59F;
-  --quaternary-bg :#F4B860;
+  --tertiary-bg :#b34531;
+  --quaternary-bg :#a02a0c;
   --quinary-bg :#C83E4D;
   --grey-light : #d8e1e8; 
   --wrapper_inside : 1330px;
@@ -206,5 +206,10 @@ hr{
 
 .main{
   width : 100%;
+}
+
+
+#__Hero *{
+  color : white;
 }
 `;
