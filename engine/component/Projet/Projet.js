@@ -252,7 +252,7 @@ const color_tech = {
   },
   typescript: {
     color: "#2f74c0",
-    name: "typescript",
+    name: "TS",
   },
 };
 
