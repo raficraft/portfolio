@@ -7,7 +7,7 @@ export const project_data = [
     readme: "/",
     github:
       "https://github.com/raficraft/Frontend_Challenge_url_short_-level_4-",
-    demo: "https://vercel.com/raficraft/frontend-challenge-url-short-level-4",
+    demo: "https://frontend-challenge-url-short-level-4.vercel.app/",
     img: "project/react/geobiologie/social/",
     desc: "Intégrer l'API shrtcode pour créer des URL raccourcis et les afficher comme dans les maquettes figma fournies. Challenge du site Frontend mentor de <b>niveau avancé [3]</b>. ",
     video: "",
