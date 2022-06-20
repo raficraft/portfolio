@@ -1,21 +1,25 @@
 export const HtmlParams_header = {
   css: {
-    flexDirection: "column",
-    backgroundColor: "#283149",
-    padding: "4rem 0 ",
+    backgroundColor: "#20273a",
+    padding: "2rem 0 1.5rem 0",
+    justifyContent: "flex-start",
   },
   params: {
-    id: "__Hero",
-    className: "hero",
+    id: "__Header",
+    className: "header",
   },
-  wrapperCss: { maxWidth: "var(--wrapper_inside)" },
+  wrapperCss: {
+    maxWidth: "var(--wrapper_inside)",
+    justifyContent: "flex-start",
+    flexDirection: "row",
+  },
+  tag: "header",
 };
 
 export const HtmlParams_hero = {
   css: {
-    flexDirection: "column",
     backgroundColor: "#283149",
-    padding: "4rem 0 ",
+    padding: "3rem 0 6rem",
   },
   params: {
     id: "__Hero",
@@ -25,8 +29,18 @@ export const HtmlParams_hero = {
 };
 export const HtmlParams_skills = {
   css: {
-    flexDirection: "column",
-    padding: "4rem 0 ",
+    backgroundColor: "#20273a",
+    padding: "4rem",
+  },
+  params: {
+    id: "__Skills",
+    className: "skills",
+  },
+  wrapperCss: { maxWidth: "var(--wrapper_inside)" },
+};
+
+export const HtmlParams_softSkills = {
+  css: {
     backgroundColor: "#20273a",
   },
   params: {
@@ -35,8 +49,13 @@ export const HtmlParams_skills = {
   },
   wrapperCss: { maxWidth: "var(--wrapper_inside)" },
 };
+
 export const HtmlParams_projet = {
-  css: { flexDirection: "column", padding: "4rem 0 " },
+  css: {
+    flexDirection: "column",
+    padding: "4rem 0 ",
+    backgroundColor: "#20273a",
+  },
   params: {
     id: "__Projet",
     className: "projet",
@@ -47,13 +66,11 @@ export const HtmlParams_projet = {
 export const HtmlParams_footer = {
   tag: "footer",
   css: {
-    flexDirection: "column",
     backgroundColor: "#20273a",
-    padding: "4rem 0 ",
   },
   params: {
-    id: "__Projet",
-    className: "projet",
+    id: "__Footer",
+    className: "footer",
   },
   wrapperCss: { maxWidth: "var(--wrapper_inside)" },
 };

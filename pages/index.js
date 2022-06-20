@@ -4,13 +4,15 @@ import Profil from "../engine/component/Profil/Profil";
 import Projet from "../engine/component/Projet/Projet";
 import Skills from "../engine/component/Skills/Skills";
 import { GlobalStyle } from "../engine/styled/global";
-import ResponsiveParent from "../engine/component/ResponsiveParent/ResponsiveParent";
+import ArchitecturalContainer from "../engine/component/ArchitectureContainer/ArchitectureContainer";
 import {
   HtmlParams_footer,
   HtmlParams_hero,
   HtmlParams_projet,
   HtmlParams_skills,
+  HtmlParams_softSkills,
 } from "./index_css";
+import SoftSkills from "../engine/component/SoftSkills/SoftSkills";
 
 export default function Home() {
   return (
@@ -21,15 +23,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <GlobalStyle />
-      <ResponsiveParent {...HtmlParams_hero}>
+      <ArchitecturalContainer {...HtmlParams_hero}>
         <Profil></Profil>
-      </ResponsiveParent>
-      <ResponsiveParent {...HtmlParams_skills}>
+      </ArchitecturalContainer>
+      <ArchitecturalContainer {...HtmlParams_skills}>
         <Skills></Skills>
-      </ResponsiveParent>
-      <ResponsiveParent {...HtmlParams_projet}>
+      </ArchitecturalContainer>
+      <ArchitecturalContainer {...HtmlParams_projet}>
         <Projet></Projet>
-      </ResponsiveParent>
+      </ArchitecturalContainer>
+      <ArchitecturalContainer {...HtmlParams_softSkills}>
+        <SoftSkills></SoftSkills>
+      </ArchitecturalContainer>
     </>
   );
 }

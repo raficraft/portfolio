@@ -75,7 +75,7 @@ h4,
 h5,
 h6 {
   font-weight: bold;
-  color: var(--primary-bg);
+  color: white;
   font-weight: 500 ;
 }
 
@@ -149,10 +149,10 @@ hr{
 
 
 
-.main_content{
+/* .main_content{
   padding : 1rem;  
   margin : 0 0 10rem 0;
-}
+} */
 
 
 
@@ -161,6 +161,7 @@ hr{
       li{
         margin : 0 0 1rem;
         list-style : square;
+        color : white;
       }
     }
 .text_2r{
@@ -198,6 +199,7 @@ hr{
   line-height: 36px ;
   word-break: break-word;
   font-size: 22px;
+  color : white;
 }
 
 .title_big{

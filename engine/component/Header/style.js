@@ -1,30 +1,29 @@
 import { S } from "../../styled/function";
 import styled from "styled-components";
 
-export const Wrapper = styled.header`
-  padding: 0 ${S.spacing(4)};
+export const Wrapper = styled.div`
   margin: 0 0 ${S.spacing(2)} 0;
   color: #fff;
+  ${S.flex("row", "flex-start", "center")}
 
   nav {
     ${S.flex("row", "center", "center")};
-    padding: ${S.spacing(4)};
     /* border-bottom: 3px solid #d8e1e8; */
     & ul {
       ${S.flexCenter("row")};
+      gap: 3rem;
+      @media (min-width: 769px) {
+        gap: 6rem;
+      }
 
       li {
         ${S.flex("row", "center", "center")};
         list-style: none;
-        margin: 0 ${S.spacing(3)};
-        @media (min-width: 769px) {
-          margin: 0 ${S.spacing(6)};
-        }
 
         a {
           text-decoration: none;
           font-size: 1.25rem;
-          color: var(--primary-bg);
+          color: white;
           padding: 0.25rem 1rem;
           position: relative;
 

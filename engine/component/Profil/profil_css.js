@@ -20,7 +20,6 @@ export const Container = styled.section`
 
   .imgProfil {
     ${S.flexCenter("row")};
-    margin: 0 0 2rem 0;
 
     span {
       border-radius: 16px;

@@ -2,6 +2,10 @@ import { Html } from "next/document";
 import React from "react";
 
 /**
+ * Architecture container located at the root of the DOM.
+   Generates a columnar flex container with a centered item that defines the width of the content.
+   Allows strips in full width or with a defined width.
+ * 
  *
  * @param {*} tag HTML element default value section *
  * @param {*} params Html Attributes id class name type... *
@@ -23,10 +27,14 @@ export default function ResponsiveParent({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    flexDirection: "column",
   };
 
+  const Tag = `${tag}`;
+  console.log({ tag });
+
   return (
-    <tag
+    <Tag
       {...params}
       style={{
         ...stylesInLine,
@@ -44,6 +52,6 @@ export default function ResponsiveParent({
       >
         {children}
       </div>
-    </tag>
+    </Tag>
   );
 }
