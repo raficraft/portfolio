@@ -250,6 +250,10 @@ const color_tech = {
     color: "#4a9440",
     name: "TDD",
   },
+  typescript: {
+    color: "#2f74c0",
+    name: "typescript",
+  },
 };
 
 export function TabletIcon(props) {
