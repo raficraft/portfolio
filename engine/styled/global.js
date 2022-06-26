@@ -4,23 +4,18 @@ import { S } from "./function";
 export const GlobalStyle = createGlobalStyle`
 
 
-/* font-family: 'Bigshot One', cursive;
-font-family: 'Khand', sans-serif;
-font-family: 'Trykker', serif; */
 
 :root{
 
   --primary-bg: #32373B;
   --secondary-bg :#4A5859;
   --tertiary-bg :#84B59F;
-  --quaternary-bg :#F4B860;
+  --quaternary-bg : #84B59F;
   --quinary-bg :#C83E4D;
   --grey-light : #d8e1e8; 
-  --wrapper_inside : 1330px;
+  --wrapper_inside : 1440px;
 
   --primary-font: font-family: 'Roboto', sans-serif;
-  --secondary-font :font-family: 'Roboto', sans-serif;
-  --tertiary-font :font-family: 'Roboto', sans-serif; 
 
   @media (max-width: 601px) {
     --wrapper_inside : calc(100vw - 2rem);
@@ -44,7 +39,7 @@ html {
 }
 
 body{
-  font-family: 'Khand', sans-serif, 'Bigshot One', cursive , 'Trykker', serif;
+  font-family:  var(--primary-font);
   background-color: #f4f4f4ff;
   min-width : 100%;
 }
@@ -64,7 +59,11 @@ a{color : black;}
 
 li {
   list-style: none;
-  font-family:  'Khand', sans-serif ;
+  font-family:   var(--primary-font);
+}
+
+select{
+  font-family:   var(--primary-font);
 }
 
 h1,
@@ -85,25 +84,25 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  font-family: 'Bigshot One', cursive;
+  font-family:  var(--primary-font);
   margin-bottom: 1rem;
 
 }
 
 h3 {
   font-size: 1.25em;
-  font-family: 'Bigshot One', cursive;
+  font-family:  var(--primary-font);
 }
 
 h4 {
   font-size: 1.125em;
-  font-family: 'Bigshot One', cursive;
+  font-family: var(--primary-font);
 }
 
 h5,
 h6 {
   font-size: 1em;
-  font-family: 'Bigshot One', cursive;
+  font-family:  var(--primary-font);
 }
 
  /* ul,
@@ -120,7 +119,7 @@ ol {
 
 p,blockquote{
   color: var(--primary-bg);
-  font-family: 'Trykker', serif;
+  font-family:  var(--primary-font);
 }
 
 button {

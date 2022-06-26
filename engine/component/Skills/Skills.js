@@ -157,7 +157,7 @@ export default function Skills() {
 
           <article>
             <header>
-              <h2>Mes points Fort</h2>
+              <h2>Mes points Forts</h2>
             </header>
             <div className="svg_AND_list">
               <div className="svg_AND_list--item box_item">

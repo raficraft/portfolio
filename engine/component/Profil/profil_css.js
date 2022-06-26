@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Container = styled.section`
   ${S.flex("column-reverse", "flex-start", "flex-start")};
   gap: 0 2rem;
-  @media (min-width: 601px) {
+  @media (min-width: 961px) {
     ${S.flex("row", "space-between", "flex-start")};
   }
 
@@ -12,7 +12,7 @@ export const Container = styled.section`
     flex: 1;
     ${S.flex("column", "space-between", "flex-start")};
     padding: 2rem 0 0 0;
-    @media screen and (min-width: 601px) {
+    @media screen and (min-width: 961px) {
       padding: 8rem 0 0 0;
       margin: 0 0 6rem 0;
     }
@@ -25,12 +25,12 @@ export const Container = styled.section`
     span {
       border-radius: 16px;
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 960px) {
       margin: auto auto;
       margin-bottom: 1rem;
       height: calc(100vw - 10rem);
     }
-    @media screen and (min-width: 601px) {
+    @media screen and (min-width: 961px) {
       ${S.responsiveContainer("430px")}
     }
   }
@@ -42,7 +42,7 @@ export const Container = styled.section`
       font-size: 1.5rem;
       line-height: 2rem;
 
-      @media screen and (max-width: 601px) {
+      @media screen and (max-width: 961px) {
         text-align: center;
         font-size: 1rem;
       }
@@ -52,7 +52,7 @@ export const Container = styled.section`
   .bigTitle {
     text-align: center;
     margin: 0 0 2rem 0;
-    @media screen and (min-width: 601px) {
+    @media screen and (min-width: 961px) {
       text-align: left;
       font-size: 5.5rem;
       ${S.flex("column", "flex-start", "flex-start")};
@@ -62,7 +62,7 @@ export const Container = styled.section`
 
   h2 {
     text-align: center;
-    @media screen and (min-width: 601px) {
+    @media screen and (min-width: 961px) {
       margin: 0 0 2rem 0;
       text-align: left;
     }
@@ -70,7 +70,7 @@ export const Container = styled.section`
 
   blockquote {
     margin: 0 0 2rem 0;
-    @media screen and (min-width: 601px) {
+    @media screen and (min-width: 961px) {
       text-align: left;
     }
   }
@@ -79,7 +79,7 @@ export const Container = styled.section`
     ${S.responsiveContainer()}
     ${S.flex("row", "center", "center")};
     margin: 1rem 0;
-    @media (min-width: 601px) {
+    @media (min-width: 961px) {
       ${S.flex("row", "flex-start", "center")};
     }
     a {

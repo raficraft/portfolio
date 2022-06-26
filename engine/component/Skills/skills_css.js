@@ -14,7 +14,7 @@ export const Wrapper_hardSkills = styled.section`
 
     &_item {
       ${S.flex("column", "center", "center", "wrap")};
-      ${S.responsiveContainer("22%")}
+      ${S.responsiveContainer("18%")}
       padding: 1rem;
       background-color: white;
       border-radius: 5px;
