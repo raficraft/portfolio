@@ -18,11 +18,15 @@ export default function Skills() {
     <section className="main_content" id="Skills">
       <Wrapper_hardSkills>
         <header className="header_top">
-          <h2 className="title_big">Hard Skills</h2>
+          <h2 className="title_big">Hard Skills / Soft Skills</h2>
         </header>
 
         <article>
           <div className="card">
+            <header>
+              <h2>Mes domaines d'expertises</h2>
+            </header>
+
             <ul className="listSvg">
               <li className="listSvg_item">
                 {<JSIcon_strong></JSIcon_strong>}

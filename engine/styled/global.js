@@ -7,8 +7,6 @@ export const GlobalStyle = createGlobalStyle`
 /* font-family: 'Bigshot One', cursive;
 font-family: 'Khand', sans-serif;
 font-family: 'Trykker', serif; */
-/*font-family: 'Poppins', sans-serif;*/
-/* font-family: 'Roboto', sans-serif; */
 
 :root{
 
@@ -20,9 +18,9 @@ font-family: 'Trykker', serif; */
   --grey-light : #d8e1e8; 
   --wrapper_inside : 1330px;
 
-  --primary-font: font-family: font-family: 'Roboto', sans-serif;
-  --secondary-font :font-family: font-family: 'Roboto', sans-serif;;
-  --tertiary-font :font-family: font-family: 'Roboto', sans-serif;; 
+  --primary-font: font-family: 'Bigshot One', cursive;;
+  --secondary-font :font-family: 'Khand', sans-serif;
+  --tertiary-font :font-family: 'Trykker', serif; 
 
   @media (max-width: 601px) {
     --wrapper_inside : calc(100vw - 2rem);
@@ -86,11 +84,9 @@ h1 {
 }
 
 h2 {
-  font-size: 
-  1.5rem;
-  font-family: 'Poppins', sans-serif;;
+  font-size: 1.5em;
+  font-family: 'Bigshot One', cursive;
   margin-bottom: 1rem;
-  font-weight: bold;
 
 }
 
@@ -197,10 +193,8 @@ hr{
 }
 
 .text{
-  line-height: 
-  24px ;
+  line-height: 1.7rem ;
   word-break: break-word;
-  font-size: 16px;
 }
 
 .title_big{

@@ -5,13 +5,14 @@ export const nav_data = [
     icon: null,
   },
   {
-    title: "Skills",
-    link: "#Skills",
-    icon: null,
-  },
-  {
     title: "Projets",
     link: "#projet",
+    icon: null,
+  },
+
+  {
+    title: "Skills",
+    link: "#Skills",
     icon: null,
   },
 ];
