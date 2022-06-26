@@ -163,39 +163,39 @@ export default function Skills() {
               <div className="svg_AND_list--item box_item">
                 <span className="svg_AND_list--icon">
                   <Handshake></Handshake>
-                  <h3>Dans ses relations avec les autres</h3>
+                  <h3>Dans mes relations avec les autres</h3>
                 </span>
 
                 <ul className="svg_AND_list--text">
                   <li>
-                    il décide en toute autonomie, avance seul dans son travail.
+                    Je décide en toute autonomie, avance seul dans mon travail.
                   </li>
                   <li>
-                    Il s'affirme facilement dans ses relations, donne le cap.
+                    Je m'affirme facilement dans mes relations, donne le cap.
                   </li>
                   <li>
-                    Il crée facilement le contact avec les autres, se montre
-                    avenant.
+                    Je crée facilement le contact avec les autres, me montre
+                    avenant..
                   </li>
                 </ul>
               </div>
               <div className="svg_AND_list--item box_item">
                 <span className="svg_AND_list--icon">
                   <IconIdea></IconIdea>
-                  <h3>Dans sa manière de travailler</h3>
+                  <h3>Dans ma manière de travailler</h3>
                 </span>
 
                 <ul className="svg_AND_list--text">
                   <li>
-                    Il est réfléchi, aborde les problèmes sous le versant
+                    Je suis réfléchi, aborde les problèmes sous le versant
                     conceptuel.
                   </li>
                   <li>
-                    Il est force de proposition, produit facilement de nouvelles
-                    idées.
+                    Je suis force de proposition, produit facilement de
+                    nouvelles idées.
                   </li>
                   <li>
-                    Il gère aisément les imprévus, possède une capacité
+                    Je gère aisément les imprévus, possède une capacité
                     d'improvisation.
                   </li>
                 </ul>
@@ -203,19 +203,19 @@ export default function Skills() {
               <div className="svg_AND_list--item box_item">
                 <span className="svg_AND_list--icon">
                   <Heart></Heart>
-                  <h3>Dans sa gestion des émotions</h3>
+                  <h3>Dans ma gestion des émotions</h3>
                 </span>
 
                 <ul className="svg_AND_list--text">
                   <li>
-                    Il dégage de l'enthousiasme, voit les choses positivement
+                    Je dégage de l'enthousiasme, voit les choses positivement
                   </li>
                   <li>
-                    Il exprime ses ressentis, communique facilement avec les
+                    J'exprime mes ressentis, communique facilement avec les
                     autres.
                   </li>
                   <li>
-                    Il est réactif, possède une énergie forte et un sens de
+                    Je suis réactif, possède une énergie forte et un sens de
                     l'urgence.
                   </li>
                 </ul>
