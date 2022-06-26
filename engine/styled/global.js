@@ -18,9 +18,9 @@ font-family: 'Trykker', serif; */
   --grey-light : #d8e1e8; 
   --wrapper_inside : 1330px;
 
-  --primary-font: font-family: 'Bigshot One', cursive;;
-  --secondary-font :font-family: 'Khand', sans-serif;
-  --tertiary-font :font-family: 'Trykker', serif; 
+  --primary-font: font-family: 'Roboto', sans-serif;
+  --secondary-font :font-family: 'Roboto', sans-serif;
+  --tertiary-font :font-family: 'Roboto', sans-serif; 
 
   @media (max-width: 601px) {
     --wrapper_inside : calc(100vw - 2rem);
