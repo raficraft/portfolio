@@ -79,7 +79,7 @@ h6 {
 
 h1 {
   font-size: 1.75em;
-  line-height: 1.2;
+  line-height: 1.2;font-weight : bold;
 }
 
 h2 {

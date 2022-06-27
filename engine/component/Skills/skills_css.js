@@ -105,11 +105,11 @@ export const Wrapper_softSkills = styled.section`
 
       svg {
         padding: 2rem;
-        background-color: var(--quaternary-bg);
         border-radius: 50%;
+        background-color: var(--quaternary-bg);
         ${S.size("8rem", "8rem")};
-        color: white;
         margin: 0 auto 1.5rem auto;
+        color: white;
       }
     }
 
@@ -125,13 +125,13 @@ export const Wrapper_softSkills = styled.section`
     margin: 2rem 0;
 
     .tag {
-      border-radius: 3px;
-      background-color: var(--quaternary-bg);
       padding: 0.25rem 1rem;
       margin: 0.5rem 1rem;
+      border-radius: 3px;
       font-size: 1.125rem;
       color: white;
       ${S.shadow("grey")}
+      background-color: var(--quaternary-bg);
     }
   }
 `;
