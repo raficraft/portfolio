@@ -130,8 +130,8 @@ export const Wrapper_softSkills = styled.section`
       border-radius: 3px;
       font-size: 1.125rem;
       color: white;
-      ${S.shadow("grey")}
       background-color: var(--quaternary-bg);
+      ${S.shadow("grey")}
     }
   }
 `;
