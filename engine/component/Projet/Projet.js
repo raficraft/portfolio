@@ -138,10 +138,7 @@ export default function Projet() {
           <li>6 projets react</li>
           <li>5 projets en vanilla JS</li>
           <li>4 projets d'intégration </li>
-          <li>
-            Projet autodidacte avec lequel j'ai tout appris valeur éstimée à 48
-            millions de dollar. ^^{" "}
-          </li>
+          <li>Projet autodidacte avec lequel j'ai tout appris</li>
         </ul>
 
         <p className="text">
